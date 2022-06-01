@@ -39,6 +39,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-include-cache
 
 # Site Author
 author:
@@ -152,6 +153,7 @@ exclude:
   - Capfile
   - CHANGELOG
   - config
+  - Gemfile
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
