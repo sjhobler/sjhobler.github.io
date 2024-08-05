@@ -1,7 +1,10 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
+# gem "jekyll", "~> 4.2.2" # Specify the desired Jekyll version
+gem "github-pages", group: :jekyll_plugins # Use github-pages without its Jekyll dependency
 gem "jekyll-include-cache", group: :jekyll_plugins
+
+gem "webrick", "~> 1.7"
 
 ## Hello! This is where you manage which Jekyll version is used to run.
 ## When you want to use a different version, change it below, save the

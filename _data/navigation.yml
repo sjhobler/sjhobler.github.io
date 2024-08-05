@@ -1,8 +1,11 @@
 # main links
 main:
+  - title: "Home"
+    url: /
   - title: Research
     url: /research/
   - title: CV
     url: /files/CV.pdf
+  - title: Code
 #  - title: Teaching
 #    url: /teaching/

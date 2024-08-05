@@ -31,17 +31,17 @@ github_username:  sjhobler
 
 head_scripts:
   - https://code.jquery.com/jquery-3.2.1.min.js
-masthead_title: "Stephan Hobler" # Changes Home Button title
+masthead_title: "." # Changes Home Button title
+logo: "/assets/images/LSE_logo.png"
 
 # Build settings
-# theme: minimal-mistakes-jekyll
-#remote_theme: mmistakes/minimal-mistakes
+# remote_theme: minimal-mistakes-jekyll
+# remote_theme: mmistakes/minimal-mistakes
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-include-cache
   - jekyll-include-cache
 
 # Site Author
@@ -50,33 +50,43 @@ author:
   avatar           : "/files/profilepic.jpg"
   bio              : "PhD Candidate, London School of Economics"
   location         : "London, UK"
-  email            : "s.j.hobler@lse.ac.uk"
-  uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           :
-  gitlab           :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-  tumblr           :
-  twitter          : "sj_hobler"
-  twitter          : "sj_hobler"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto: s.j.hobler@lse.ac.uk"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/sj_hobler"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sjhobler"
+
+  # email            : "s.j.hobler@lse.ac.uk"
+  # uri              :
+  # home             : # null (default), "absolute or relative url to link to author home"
+  # bitbucket        :
+  # codepen          :
+  # dribbble         :
+  # flickr           :
+  # facebook         :
+  # foursquare       :
+  # github           : "sjhobler"
+  # gitlab           :
+  # google_plus      :
+  # keybase          :
+  # instagram        :
+  # lastfm           :
+  # linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  # pinterest        :
+  # soundcloud       :
+  # stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  # steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  # tumblr           :
+  # twitter          : "sj_hobler"
+  # vine             :
+  # weibo            :
+  # xing             :
+  # youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
 # Conversion
 markdown: kramdown
