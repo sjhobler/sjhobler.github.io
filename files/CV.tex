@@ -1,0 +1,120 @@
+\documentclass{article}
+\usepackage{amsmath, amsfonts, amsthm, amssymb, bm, bbm, bigints, booktabs, color, enumerate, mdframed, mathtools, graphicx, longtable, mathabx, multirow, natbib, parskip, setspace, subfigure, tikz, multirow,array, tcolorbox,soul}
+\definecolor{dred}{rgb}{0.75, 0, 0} % Dark red
+\definecolor{dpurple}{rgb}{0.6, 0, 0.4} % Dark red % Dark purple
+\definecolor{darkblue}{rgb}{0.0, 0.0, 0.55}
+\definecolor{midnightblue}{rgb}{0.1, 0.1, 0.44}
+%\usepackage[backref=false, colorlinks=true, linkcolor=dred, urlcolor=dred, citecolor=dred]{hyperref}
+\usepackage[backref=false, colorlinks=true, linkcolor=dred, urlcolor=dred, citecolor=dred]{hyperref}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage[osf]{mathpazo} % Font
+\usepackage[UKenglish]{babel}
+\usepackage[UKenglish]{isodate}
+\usepackage[mathscr]{euscript}
+\numberwithin{equation}{section}
+\tcbuselibrary{breakable}
+\setlength{\parindent}{0pt} % No spacing after breaks
+\tcbset{colback=green!2.5!white}
+\tcbsetforeverylayer{colframe=dred!85!white}
+\usepackage{xcolor}
+\usepackage{tikzscale}
+\usepackage{mathrsfs}
+\usepackage{tabularx}
+
+\usepackage{ amssymb }
+\usepackage[left=2cm,right=2cm]{geometry}
+\usepackage{amsfonts} %% <- also included by amssymb
+\renewcommand{\arraystretch}{1.5}
+\renewcommand{\baselinestretch}{1.5}
+\pagenumbering{gobble}
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+
+\usepackage{amsthm}
+\usepackage{float}
+
+\begin{document}
+\begin{table}[h!]
+\centering \LARGE \textbf{Stephan Hobler} \\
+
+\vspace{3mm}
+
+\normalsize Email: \href{mailto:s.j.hobler@lse.ac.uk}{s.j.hobler@lse.ac.uk} \quad $\circ$ \quad Website: \href{https://sjhobler.github.io/}{sjhobler.github.io/}
+
+\vspace{5mm}
+
+\normalsize
+	\begin{tabular}{p{0.2\textwidth} p{0.8 \textwidth}}
+		\textbf{Education} & \\ \midrule
+		\qquad 2020- & \textbf{London School of Economics, UK} \\
+		& Ph.D. in Economics \\
+		\qquad 2018-2020 & \textbf{University of Oxford, UK} \\
+		& M.Phil. in Economics \\
+		\qquad 2015-2018 & \textbf{University of Warwick, UK} \\ 
+		& B.Sc. in Economics
+	\end{tabular}
+
+	\vspace{5mm}
+	\begin{tabular}{p{\textwidth}}
+		\textbf{Working Papers} \\ \midrule
+		\hangindent2em
+		\hangafter=0
+		\href{https://jadhazell.github.io/website/Fiscal_Inflation_Draft.pdf}{"Do Deficits Cause Inflation? A High Frequency Narrative Approach"} (with Jonathon Hazell), March 2024.
+	\end{tabular}
+
+	\vspace{5mm}
+	\begin{tabular}{p{\textwidth}}
+		\textbf{Publications} \\ \midrule 
+		\hangindent2em
+		\hangafter=0 
+		\href{https://www.sciencedirect.com/science/article/pii/S016518892200077X?fr=RR-2\&ref=pdf_download&rr=71c3ed83b8eb776d}{"Multi-Layered Rational Inattention and Time-Varying Volatility."} \textit{Journal of Economic Dynamics and Control}, 2022.
+	\end{tabular}
+	
+	\vspace{5mm}
+	\begin{tabular}{p{\textwidth}}
+		\textbf{Pre-doctoral research} \\ \midrule
+		\hangindent2em
+		\hangafter=0
+		"Why did we think wages are rigid for all those years?" (with Thijs van Rens and See Yu Chan). \\
+		\qquad "Disappearing Jobs and Displaced Workers: Does Education Matter?" \textit{Carroll Round Proceedings}, 2019
+	\end{tabular}
+	
+	\vspace{5mm}
+	
+	\begin{tabular}{p{0.2\textwidth}p{0.8\textwidth}}
+		\multicolumn{2}{l}{\textbf{Other Positions}} \\ \midrule
+		\qquad 2022 & Research Assistant to Maarten De Ridder \\
+		\qquad 2021 & Research Assistant to Joe Hazell \\
+		\qquad 2020 & Research Assistant to Martin Ellison \\
+		\qquad 2017-2018 & Research Assistant to Thijs van Rens
+	\end{tabular}
+
+	\vspace{5mm}
+	\begin{tabular}{p{0.2\textwidth}p{0.8\textwidth}}
+		\multicolumn{2}{l}{\textbf{Teaching Experience}} \\ \midrule
+		\qquad 2023- & EC2B1 Macroeconomics II (Course Manager) \\ 
+		\qquad 2022-2023 & EC2B1 Macroeconomics II (Teaching Assistant) \\ 
+		\qquad 2021-2022 & EC210 Macroeconomic Principles (Teaching Assistant)
+	\end{tabular}
+	
+	\vspace{5mm}
+	\begin{tabular}{p{\textwidth}}
+		\textbf{Awards \& Grants} \\ \midrule
+		\qquad Sir John Hicks Prize (2022), London School of Economics \\ 
+		\qquad LSE Economics Department Scholarship \\
+		\qquad NOE TOP Stipendium (study grant) \\
+		\qquad Examiner’s Prize for Outstanding Performance in Economics for Third Year, University of Warwick \\
+		\qquad Oliver Hart Prize of Excellent Performance for Second Year, University of Warwick
+	\end{tabular}
+\end{table}
+
+\clearpage
+\begin{table}[ht!]
+	\normalsize
+	\begin{tabular}{p{0.2\textwidth}p{0.8\textwidth}}
+		\textbf{Other} & \\ \midrule
+		\qquad Computer & Julia, Python, Matlab, Stata, R \\
+		\qquad Languages & German (native), English
+	\end{tabular}
+\end{table}
+
+\end{document}
