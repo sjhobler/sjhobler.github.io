@@ -88,6 +88,22 @@ author:
   # xing             :
   # youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
+# sidebar:
+#   - title: "Stephan Hobler"
+#   - image: "/files/profilepic.jpg"
+#   - text: "PhD Candidate, London School of Economics"
+#   - links:
+#     - label: "Email"
+#       icon: "fas fa-fw fa-envelope-square"
+#       url: "mailto: s.j.hobler@lse.ac.uk"
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       url: "https://twitter.com/sj_hobler"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/sjhobler"
+
+
 # Conversion
 markdown: kramdown
 highlighter: rouge

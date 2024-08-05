@@ -3,11 +3,12 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.single-wide {
-  font: $monospace;
-  font-size: $type-size-1;
-}
+// .single-wide {
+//   font: $monospace;
+//   font-size: $type-size-1;
+// }
 
-.masthead__menu { 
-  color: #1a1a1a;
-}
+// .masthead__menu { 
+//   color: #1a1a1a;
+// }
+
