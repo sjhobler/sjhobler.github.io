@@ -35,10 +35,13 @@ masthead_title: "Stephan Hobler" # Changes Home Button title
 
 # Build settings
 theme: minimal-mistakes-jekyll
+#remote_theme: mmistakes/minimal-mistakes
+#remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-include-cache
 
 # Site Author
 author:
@@ -67,7 +70,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : sj_hobler
+  twitter          : "sj_hobler"
   vine             :
   weibo            :
   xing             :

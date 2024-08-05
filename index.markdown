@@ -6,8 +6,8 @@ layout: home
 author_profile: true
 ---
 
-### Biography
+**Biography**
 
-I am a 2nd year PhD student at the London School of Economics. My research interests are in macroeconomics.
+I am a 4th year PhD student at the London School of Economics. My research interests are in macroeconomics.
 
 For a brief CV see [here]({{ site.baseurl }}{% link /files/CV.pdf %}).
