@@ -5,17 +5,20 @@ title: Research
 permalink: /research/
 ---
 
-### Working Papers
+<!-- ### Working Papers -->
+### <span style="text-decoration: underline;">Working Papers</span>
 Do Deficits Cause Inflation? A High Frequency Narrative Approach. (with [Jonathon Hazell](https://sites.google.com/view/jadhazell/home?authuser=0)). March 2024.  
 *Draft -- preliminary and incomplete*  
 [[Working Paper]](https://jadhazell.github.io/website/Fiscal_Inflation_Draft.pdf)  
 {: style="text-align: left; font-size:0.8em;"}
 
-### Work in Progress
+<!-- ### Work in Progress -->
+### <span style="text-decoration: underline;">Work in Progress</span>
 Why did we think wages are rigid for all those years? (with with [See Yu Chan](https://seeyuchan.com/) and [Thijs van Rens](https://www.thijsvanrens.com/)).
 {: style="text-align: left; font-size:0.8em;"}
 
-### Publications
+<!-- ### Publications -->
+### <span style="text-decoration: underline;">Publications</span>
 
 Multi-layered rational inattention and time-varying volatility.  
 *Journal of Economic Dynamics and Control, 2022*  
