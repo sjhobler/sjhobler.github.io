@@ -51,13 +51,15 @@
   h5,
   h6 {
     margin-bottom: 0;
-    font-family: $sans-serif-narrow;
+    // font-family: $sans-serif-narrow;
+    font-family: $serif-narrow;
   }
 
   p,
   li {
-    font-family: $sans-serif;
-    font-size: $type-size-6;
+    // font-family: $sans-serif;
+    font-family: $serif;
+    font-size: $type-size-5_2;
     line-height: 1.5;
   }
 
@@ -174,8 +176,9 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
-  font-size: $type-size-5;
+  // font-family: $sans-serif;
+  font-family: $serif;
+  font-size: $type-size-5_2;
 }
 
 .author__bio {
@@ -191,7 +194,8 @@
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: $sans-serif;
+  // font-family: $sans-serif;
+  font-family: $serif;
   z-index: 20;
   cursor: pointer;
 
@@ -316,7 +320,8 @@
     padding-top: 2px;
     padding-bottom: 2px;
     color: inherit;
-    font-size: $type-size-5;
+    // font-size: $type-size-5;
+    font-size: $type-size-5_2;
     text-decoration: none;
 
     &:hover {

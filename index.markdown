@@ -10,17 +10,17 @@ author_profile: true
 
 
 I am a 4th year PhD student at the London School of Economics.
-{: style="text-align: left; font-size:0.95em;"}
+{: style="text-align: left; font-size:0.8em;"}
 
 I received my undergraduate degree from the University of Warwick and a MPhil degree from the University of Oxford. 
-{: style="text-align: left; font-size:0.95em;"}
+{: style="text-align: left; font-size:0.8em;"}
 
 
 My research interests are in macroeconomics.
-{: style="text-align: left; font-size:0.95em;"}
+{: style="text-align: left; font-size:0.8em;"}
 
 [Here]({{ site.baseurl }}{% link /files/CV.pdf %}) is a brief CV. 
-{: style="text-align: left; font-size:0.95em;"}
+{: style="text-align: left; font-size:0.8em;"}
 
 My email is s.j.hobler [at] lse [dot] ac [dot] uk. 
-{: style="text-align: left; font-size:0.95em;"}
+{: style="text-align: left; font-size:0.8em;"}

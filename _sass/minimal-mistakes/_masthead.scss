@@ -4,7 +4,7 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 0px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
@@ -23,7 +23,9 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    font-family: $sans-serif-narrow;
+    // font-family: $sans-serif-narrow;
+    font-family: $serif-narrow;
+    font-size: $type-size-5_2;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -44,13 +46,14 @@
 }
 
 .site-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: center;
-  align-self: center;
-  font-weight: bold;
-  // z-index: 20;
+  // display: -webkit-box;
+  // display: -ms-flexbox;
+  // display: flex;
+  // -ms-flex-item-align: center;
+  // align-self: center;
+  // font-weight: bold;
+  // // z-index: 20;
+  display: none !important; // Hide the masthead title
 }
 
 .site-subtitle {
