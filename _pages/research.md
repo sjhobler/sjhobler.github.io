@@ -14,6 +14,9 @@ Do Deficits Cause Inflation? A High Frequency Narrative Approach. (with [Jonatho
 
 <!-- ### Work in Progress -->
 ### <span style="text-decoration: underline;">Work in Progress</span>
+A front fixing approach to solving sovereign default models.  
+*Draft coming soon*
+
 Why did we think wages are rigid for all those years? (with with [See Yu Chan](https://seeyuchan.com/) and [Thijs van Rens](https://www.thijsvanrens.com/)).
 {: style="text-align: left; font-size:0.8em;"}
 
