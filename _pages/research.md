@@ -7,8 +7,7 @@ permalink: /research/
 
 <!-- ### Working Papers -->
 ### <span style="text-decoration: underline;">Working Papers</span>
-Do Deficits Cause Inflation? A High Frequency Narrative Approach. (with [Jonathon Hazell](https://sites.google.com/view/jadhazell/home?authuser=0)). March 2024.  
-*Draft -- preliminary and incomplete*  
+[New] Do Deficits Cause Inflation? A High Frequency Narrative Approach. (with [Jonathon Hazell](https://sites.google.com/view/jadhazell/home?authuser=0)). March 2024.  
 [[Working Paper]](https://jadhazell.github.io/website/Fiscal_Inflation_Draft.pdf)  
 {: style="text-align: left; font-size:0.8em;"}
 
