@@ -1,17 +1,20 @@
 ---
 layout: none
 ---
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8">
-    <title>{{ site.title }} | CV</title>
+    <title>
+      {{ site.title }}
+      | CV
+    </title>
     <meta http-equiv="refresh" content="0; url={{ page.cv_pdf | relative_url }}">
     <script>
-        window.location.href = "{{ page.cv_pdf | relative_url }}";
+      window.location.href = '{{ page.cv_pdf | relative_url }}';
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <p>If you are not redirected automatically, <a href="{{ page.cv_pdf | relative_url }}">click here to view the CV</a>.</p>
-</body>
+  </body>
 </html>

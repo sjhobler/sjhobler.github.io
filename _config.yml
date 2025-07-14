@@ -4,13 +4,13 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Stephan
-middle_name: 
+middle_name:
 last_name: Hobler
 email: s.j.hobler@lse.ac.uk
-contact_note: 
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Stephan Hobler Homepage.
-footer_text: 
+footer_text:
 keywords: sjhobler, academic-webiste # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon/favicon.svg
@@ -26,8 +26,8 @@ back_to_top: false # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 #
 ## code highlighter theme
-highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_light: github # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_dark: native # https://github.com/jwarby/jekyll-pygments-themes
 
 # repo color theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
@@ -213,6 +213,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-toc
 
 # Sitemap settings
 defaults:
