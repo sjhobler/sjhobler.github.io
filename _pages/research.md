@@ -7,18 +7,6 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-<!-- {% include bib_search.liquid %} -->
-
-<!-- <div class="publications"> -->
-
-{% comment %} {% bibliography %} {% endcomment %}
-
-<!-- </div> -->
-
 ### <span style="text-decoration: underline;">Working Papers</span>
 
 Do Deficits Cause Inflation? A High Frequency Narrative Approach. (with [Jonathon Hazell](https://sites.google.com/view/jadhazell/home?authuser=0)). June 2025.  
