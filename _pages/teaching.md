@@ -1,12 +1,16 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: 
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Course Manager for undergraduate course *EC2B1 -- Macroeconomics II, LSE* (2023/24, 2024/25)
 
-Organize your courses by years, topics, or universities, however you like!
+Teaching Assistant for *EC2B1 -- Macroeconomics II, LSE* (2022/23)
+
+Teaching Assistant for undergraduate course *EC210 -- Macroeconomic Principles, LSE* (2021-2022)
+
+Teaching Assistant for computational summer school *Tools for Macroeconomists 2025 -- Advanced Tools* (2022-23, 2023-24)
