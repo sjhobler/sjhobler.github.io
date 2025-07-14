@@ -6,7 +6,7 @@ subtitle: #<a href='https://www.lse.ac.uk/economics'>London School of Economics<
 
 profile:
   align: right
-  image: profilepic_new.jpg
+  image: profilepic.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
