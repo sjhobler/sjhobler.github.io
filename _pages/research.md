@@ -26,11 +26,11 @@ A front fixing approach to solving sovereign default models.
 
 <!-- {: style="text-align: left; font-size:0.8em;"} -->
 
-Why did we think wages are rigid for all those years? (with [See Yu Chan](https://seeyuchan.com/){:target="_blank"} and [Thijs van Rens](https://www.thijsvanrens.com/){:target="_blank"}{:rel="noopener noreferrer"}).
+Why did we think wages are rigid for all those years? (with [See Yu Chan](https://seeyuchan.com/){:target="\_blank"} and [Thijs van Rens](https://www.thijsvanrens.com/){:target="\_blank"}{:rel="noopener noreferrer"}).
 
 <!-- {: style="text-align: left; font-size:0.8em;"} -->
 
-Intangible capital, leverage dynamics, and economic growth (with [Johannes Matt](https://www.johannesmatt.com/){:target="_blank"}{:rel="noopener noreferrer"})
+Intangible capital, leverage dynamics, and economic growth (with [Johannes Matt](https://www.johannesmatt.com/){:target="\_blank"}{:rel="noopener noreferrer"})
 
 <!-- ### Publications -->
 
