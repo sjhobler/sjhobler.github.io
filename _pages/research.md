@@ -10,7 +10,7 @@ nav_order: 2
 ### <span style="text-decoration: underline;">Working Papers</span>
 
 Do Deficits Cause Inflation? A High Frequency Narrative Approach. (with [Jonathon Hazell](https://sites.google.com/view/jadhazell/home?authuser=0)). June 2025.  
-[[Working Paper]](https://jadhazell.github.io/website/Fiscal_Inflation_Draft.pdf)
+[[Working Paper]](https://jadhazell.github.io/website/Fiscal_Inflation_Draft.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 
 <!-- {: style="text-align: left; font-size:0.8em;"} -->
 
@@ -26,11 +26,11 @@ A front fixing approach to solving sovereign default models.
 
 <!-- {: style="text-align: left; font-size:0.8em;"} -->
 
-Why did we think wages are rigid for all those years? (with [See Yu Chan](https://seeyuchan.com/) and [Thijs van Rens](https://www.thijsvanrens.com/)).
+Why did we think wages are rigid for all those years? (with [See Yu Chan](https://seeyuchan.com/){:target="_blank"} and [Thijs van Rens](https://www.thijsvanrens.com/){:target="_blank"}{:rel="noopener noreferrer"}).
 
 <!-- {: style="text-align: left; font-size:0.8em;"} -->
 
-Intangible capital, leverage dynamics, and economic growth (with [Johannes Matt](https://www.johannesmatt.com/))
+Intangible capital, leverage dynamics, and economic growth (with [Johannes Matt](https://www.johannesmatt.com/){:target="_blank"}{:rel="noopener noreferrer"})
 
 <!-- ### Publications -->
 
