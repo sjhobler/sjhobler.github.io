@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a 5th year PhD student at the London School of Economics. My research interests are in macroeconomics.
+I am a 5th year PhD student at the London School of Economics. My research interests are in macroeconomics. My latest research can be found [here](/research/).
 
 <!-- I received my undergraduate degree from the University of Warwick and a MPhil degree from the University of Oxford. -->
 
