@@ -14,19 +14,19 @@ Do Deficits Cause Inflation? A High Frequency Narrative Approach. (with [Jonatho
 
 <!-- {: style="text-align: left; font-size:0.8em;"} -->
 
+Why did we think wages are rigid for all those years? (with [See Yu Chan](https://seeyuchan.com/){:target="\_blank"} and [Thijs van Rens](https://www.thijsvanrens.com/){:target="\_blank"}{:rel="noopener noreferrer"}) September 2025. [[Working Paper](https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2025/twerp_1577-_van_rens.pdf)].
+
 <!-- ### Work in Progress -->
 
 ### <span style="text-decoration: underline;">Work in Progress</span>
 
-Technology adoption and worker mobility. [JMP]
+Worker Mobility and the Diffusion of Radical Technologies. [JMP]
 
 Granular Search in the Product Market.
 
 A front fixing approach to solving sovereign default models.
 
 <!-- {: style="text-align: left; font-size:0.8em;"} -->
-
-Why did we think wages are rigid for all those years? (with [See Yu Chan](https://seeyuchan.com/){:target="\_blank"} and [Thijs van Rens](https://www.thijsvanrens.com/){:target="\_blank"}{:rel="noopener noreferrer"}).
 
 <!-- {: style="text-align: left; font-size:0.8em;"} -->
 
