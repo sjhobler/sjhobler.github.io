@@ -1,4 +1,4 @@
-PWD /home/stephan/Documents/Website/al-folio/assets/cv
+PWD /home/stephan/Documents/Website/home/assets/cv
 INPUT /home/stephan/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
 INPUT CV.tex
 OUTPUT CV.log
