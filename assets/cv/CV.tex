@@ -30,9 +30,10 @@
   [\vspace{-0.8em}\rule{\textwidth}{0.8pt}\vspace{-0.2em}]
 
 % Custom commands for CV entries
-\newcommand{\cventry}[3]{%
-  #1 \hfill #2\\
-  \textit{#3} \hfill \\ [-0.3em]
+  \newcommand{\cventry}[4][]{%
+  #2 \hfill #3\\
+  \textit{#4} \hfill \\
+  #1 \\ [-0.3em]
 }
 
 \newcommand{\cvitem}[2]{%
@@ -64,7 +65,7 @@
 \end{center}
 
 \section{Education}
-\cventry{London School of Economics and Political Science}{2020--present}
+\cventry[Advisors: Wouter den Haan, Matthias Doepke, Jonathon Hazell]{London School of Economics and Political Science}{2020--present}
 {PhD in Economics}
 
 \cventry{University of Oxford}{2018--2020}
@@ -121,7 +122,7 @@
 
 \vspace{-0.5em}
 \section{Other Skills}
-\awarditem{Technical: Julia, Python, Matlab, Stata, R}
+\awarditem{Technical: Julia, Python, Matlab, R}
 \awarditem{Languages: German (native), English (fluent)}
 
 \end{document}
