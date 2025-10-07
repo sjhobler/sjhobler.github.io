@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2024.9.15)  19 SEP 2025 14:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2024.9.15)  25 SEP 2025 18:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1338,33 +1338,33 @@ LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 (Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
 )
 LaTeX Font Info:    Trying to load font information for OT1+pplj on input line 
-58.
+59.
 
 (/home/stephan/.miktex/texmfs/install/tex/latex/psnfss/ot1pplj.fd
 File: ot1pplj.fd 2004/09/06 font definitions for OT1/pplj.
 ) (CV.aux)
 \openout1 = `CV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Info: Command `\dddot' is already robust on input line 58.
-LaTeX Info: Command `\ddddot' is already robust on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Info: Command `\dddot' is already robust on input line 59.
+LaTeX Info: Command `\ddddot' is already robust on input line 59.
 
 (/home/stephan/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1396,7 +1396,7 @@ G,.JBIG2,.JB2,.eps]
 (/home/stephan/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 58.
+Package hyperref Info: Link coloring ON on input line 59.
 
 (CV.out) (CV.out)
 \@outlinefile=\write4
@@ -1439,94 +1439,94 @@ Package hyperref Info: Link coloring ON on input line 58.
 
 isodate: babel.sty has been loaded
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 6
-3.
+4.
 (/home/stephan/.miktex/texmfs/install/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-63.
+64.
 
 (/home/stephan/.miktex/texmfs/install/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-63.
+64.
 
 (/home/stephan/.miktex/texmfs/install/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-63.
+64.
 
 (/home/stephan/.miktex/texmfs/install/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 63.
+(Font)              scaled to size 10.42007pt on input line 64.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 63.
+(Font)              scaled to size 7.91925pt on input line 64.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 63.
+(Font)              scaled to size 6.25204pt on input line 64.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 63.
+(Font)              scaled to size 10.42007pt on input line 64.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 63.
+(Font)              scaled to size 7.91925pt on input line 64.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 63.
+(Font)              scaled to size 6.25204pt on input line 64.
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-63.
+64.
 
 (/home/stephan/.miktex/texmfs/install/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--91
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--101
+Underfull \hbox (badness 10000) in paragraph at lines 98--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
+Underfull \hbox (badness 10000) in paragraph at lines 105--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--117
+Underfull \hbox (badness 10000) in paragraph at lines 112--118
 
  []
 
 [1
 
 {/home/stephan/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
@@ -1539,10 +1539,10 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: 0A6D23B89AA2A983B18ACF7552417C7C;1039.
  ) 
 Here is how much of TeX's memory you used:
- 28544 strings out of 474538
- 533638 string characters out of 5748217
+ 28545 strings out of 474538
+ 533646 string characters out of 5748217
  1938975 words of memory out of 5000000
- 50225 multiletter control sequences out of 15000+600000
+ 50226 multiletter control sequences out of 15000+600000
  580528 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,93p,1193b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1552,7 +1552,7 @@ iktex/texmfs/install/fonts/type1/public/mathabx-type1/matha10.pfb></home/stepha
 n/.miktex/texmfs/install/fonts/type1/urw/palatino/uplb8a.pfb></home/stephan/.mi
 ktex/texmfs/install/fonts/type1/urw/palatino/uplr8a.pfb></home/stephan/.miktex/
 texmfs/install/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on CV.pdf (2 pages, 80154 bytes).
+Output written on CV.pdf (2 pages, 80191 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
