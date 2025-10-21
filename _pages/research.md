@@ -7,6 +7,11 @@ nav: true
 nav_order: 2
 ---
 
+### <span style="text-decoration: underline;">Job Market Paper</span>
+
+Worker Mobility and the Diffusion of Radical Technologies. [Draft coming soon!]
+
+
 ### <span style="text-decoration: underline;">Working Papers</span>
 
 Do Deficits Cause Inflation? A High Frequency Narrative Approach. (with [Jonathon Hazell](https://sites.google.com/view/jadhazell/home?authuser=0)). June 2025.  
@@ -19,8 +24,6 @@ Why did we think wages are rigid for all those years? (with [See Yu Chan](https:
 <!-- ### Work in Progress -->
 
 ### <span style="text-decoration: underline;">Work in Progress</span>
-
-Worker Mobility and the Diffusion of Radical Technologies. [JMP]
 
 Granular Search in the Product Market.
 

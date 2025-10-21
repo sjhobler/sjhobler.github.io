@@ -237,6 +237,8 @@ INPUT /home/stephan/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
+INPUT /home/stephan/.miktex/texmfs/install/tex/latex/tools/tabularx.sty
+INPUT /home/stephan/.miktex/texmfs/install/tex/latex/tools/tabularx.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
@@ -249,6 +251,8 @@ INPUT /home/stephan/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.sty
+INPUT /home/stephan/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
+INPUT /home/stephan/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
 INPUT /home/stephan/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
 INPUT /home/stephan/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
@@ -263,15 +267,9 @@ INPUT /home/stephan/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
-INPUT /home/stephan/.miktex/texmfs/install/tex/generic/atbegshi/atbegshi.sty
-INPUT /home/stephan/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
-INPUT /home/stephan/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
 INPUT /home/stephan/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
 INPUT /home/stephan/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
-INPUT /home/stephan/.miktex/texmfs/install/tex/latex/atveryend/atveryend.sty
-INPUT /home/stephan/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
-INPUT /home/stephan/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /home/stephan/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
