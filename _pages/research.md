@@ -12,6 +12,7 @@ nav_order: 2
 Worker Mobility and the Diffusion of Radical Technologies. [Draft coming soon!]
 
 
+<div style="height: 16px;"></div>
 ### <span style="text-decoration: underline;">Working Papers</span>
 
 Do Deficits Cause Inflation? A High Frequency Narrative Approach. (with [Jonathon Hazell](https://sites.google.com/view/jadhazell/home?authuser=0)). June 2025.  
@@ -22,7 +23,7 @@ Do Deficits Cause Inflation? A High Frequency Narrative Approach. (with [Jonatho
 Why did we think wages are rigid for all those years? (with [See Yu Chan](https://seeyuchan.com/){:target="\_blank"} and [Thijs van Rens](https://www.thijsvanrens.com/){:target="\_blank"}{:rel="noopener noreferrer"}) September 2025. [[Working Paper](https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2025/twerp_1577-_van_rens.pdf)].
 
 <!-- ### Work in Progress -->
-
+<div style="height: 16px;"></div>
 ### <span style="text-decoration: underline;">Work in Progress</span>
 
 Granular Search in the Product Market.
@@ -37,6 +38,7 @@ Intangible capital, leverage dynamics, and economic growth (with [Johannes Matt]
 
 <!-- ### Publications -->
 
+<div style="height: 16px;"></div>
 ### <span style="text-decoration: underline;">Publications</span>
 
 Multi-layered rational inattention and time-varying volatility.  
