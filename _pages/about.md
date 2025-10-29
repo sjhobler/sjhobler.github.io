@@ -33,12 +33,11 @@ I am a 6th year PhD student at the London School of Economics. My research inter
 My email is s.j.hobler [at] lse [dot] ac [dot] uk.
 
 <div style="height: 12px;"></div>
-**I will be on the academic job market in 2025/26.**
+<strong style="font-weight: bold;"> I am on the 2025-2026 academic job market.</strong><br>
 <div style="height: 12px;"></div>
 
 **Placement director:** [Matthias Doepke](https://www.lse.ac.uk/people/matthias-doepke)
 
 **References:** [Wouter den Haan](https://www.lse.ac.uk/people/wouter-den-haan), [Maarten De Ridder](https://www.lse.ac.uk/people/maarten-de-ridder), [Matthias Doepke](https://www.lse.ac.uk/people/matthias-doepke), [Jonathon Hazell](https://www.lse.ac.uk/people/jonathon-hazell)
-
 
 <div style="height: 16px;"></div>
