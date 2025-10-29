@@ -41,7 +41,12 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    {% comment %} <div class="clearfix">{{ content }}</div> {% endcomment %}
+    <div class="clearfix">
+      <div class="about-content-wrapper" style="max-width: 550px; text-align: justify;">
+        {{ content }}
+      </div>
+    </div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}

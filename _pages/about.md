@@ -24,6 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+
 I am a 6th year PhD student at the London School of Economics. My research interests are in macroeconomics. My latest research can be found [here](/research/).
 
 <!-- I received my undergraduate degree from the University of Warwick and a MPhil degree from the University of Oxford. -->
@@ -35,7 +36,7 @@ My email is s.j.hobler [at] lse [dot] ac [dot] uk.
 
 
 
-<div style="height: 12px;"></div>
+<div style="height: 16px;"></div>
 <strong style="font-weight: bold;"> I am on the 2025-2026 academic job market.</strong><br>
 <div style="height: 12px;"></div>
 
@@ -44,3 +45,31 @@ Placement director: [Matthias Doepke](https://www.lse.ac.uk/people/matthias-doep
 References: [Wouter den Haan](https://www.lse.ac.uk/people/wouter-den-haan), [Maarten De Ridder](https://www.lse.ac.uk/people/maarten-de-ridder), [Matthias Doepke](https://www.lse.ac.uk/people/matthias-doepke), [Jonathon Hazell](https://www.lse.ac.uk/people/jonathon-hazell)
 
 <div style="height: 16px;"></div>
+
+<!-- <div style="max-width: 550px; text-align: justify;"> -->
+
+<!-- <p style="margin: 0 5 15px 0;"> -->
+<!-- I am a 6th year PhD student at the London School of Economics. My research interests are in macroeconomics. My latest research can be found <a href="/research/">here</a>. -->
+<!-- </p> -->
+
+<!-- <p style="margin: 0 5 10px 0;"> -->
+<!-- <a href="{{ site.baseurl }}{% link /assets/cv/CV.pdf %}" target="_blank" rel="noopener noreferrer">Here</a> is a brief CV.<br> -->
+<!-- </p> -->
+
+<!-- <p style="margin: 0 5 60px 0;"> -->
+<!-- My email is s.j.hobler [at] lse [dot] ac [dot] uk.<br> -->
+<!-- </p> -->
+
+<!-- <p style="margin: 0 0 30px 0; font-weight: bold;"> -->
+<!-- I am on the 2025-2026 academic job market.<br> -->
+<!-- </p> -->
+
+<!-- <p style="margin: 0 5 10px 0;"> -->
+<!-- <strong>Placement director:</strong> <a href="https://www.lse.ac.uk/people/matthias-doepke">Matthias Doepke</a> -->
+<!-- </p> -->
+
+<!-- <p style="margin: 0 5 30 0; text-align: left;"> -->
+<!-- <strong>References:</strong> <a href="https://www.lse.ac.uk/people/wouter-den-haan">Wouter den Haan</a>, <a href="https://www.lse.ac.uk/people/maarten-de-ridder">Maarten De Ridder</a>, <a href="https://www.lse.ac.uk/people/matthias-doepke">Matthias Doepke</a>, <a href="https://www.lse.ac.uk/people/jonathon-hazell">Jonathon Hazell</a> -->
+<!-- </p> -->
+
+<!-- </div> -->
