@@ -23,7 +23,8 @@ h1:first-of-type {
 <div style="margin-bottom: 16px;">
   <strong style="font-weight: bold;"> Worker Mobility and the Diffusion of Radical Technologies.</strong><br>
   <span style="font-size: 0.95em; color: #666;">
-    <em>Job Market Paper</em> | Draft coming soon!
+    <em>Job Market Paper</em> | <a href="/assets/papers/jmp/jmp-sj-hobler.pdf" target="_blank">Link</a>
+    <!-- Draft coming soon! -->
   </span>
   <details style="margin-top: 8px;">
     <summary style="cursor: pointer; color: #0066cc; font-size: 0.95em;">
@@ -75,6 +76,22 @@ h1:first-of-type {
   </details>
 </div>
 
+<div style="margin-bottom: 16px;">
+  <strong style="font-weight: bold;">A front fixing approach to solving sovereign default models.</strong><br>
+  <span style="font-size: 0.95em; color: #666;">
+    Computational Note | <a href="/assets/papers/ff_paper.pdf" target="_blank">Link</a> | Code coming soon!
+  </span>
+  <details style="margin-top: 8px;">
+    <summary style="cursor: pointer; color: #0066cc; font-size: 0.95em;">
+      Abstract
+    </summary>
+    <div style="padding: 10px 0; font-size: 0.95em; line-height: 1.5;">
+        This paper proposes a robust and efficient method of solving models with endogenous borrowing constraints and strategic default in continuous-time. Using a change of variable the free-boundary problem is transformed into a boundary value problem on a fixed domain in which default thresholds enter explicitly as endogenous variables. Default thresholds can then be solved using algorithms that are analogous to solving for fixed point of prices in standard general equilibrium models. I demonstrate the approach using two sovereign default models featuring short-term and long-term debt, respectively. At last, I show how the method can be applied to time dependent problems featuring transition dynamics.
+    </div>
+  </details>
+</div>
+
+
 <div style="height: 18px;"></div>
 
 #### Work in Progress
@@ -85,16 +102,15 @@ h1:first-of-type {
   <strong style="font-weight: bold;">Granular Search in the Product Market.</strong><br>
 </div>
 
-<div style="margin-bottom: 16px;">
-  <strong style="font-weight: bold;">A front fixing approach to solving sovereign default models.</strong><br>
-</div>
+<!-- <div style="margin-bottom: 16px;"> -->
+<!--   <strong style="font-weight: bold;">A front fixing approach to solving sovereign default models.</strong><br> -->
+<!-- </div> -->
 
 <div style="margin-bottom: 16px;">
   <strong style="font-weight: bold;">Intangible capital, leverage dynamics, and economic growth.</strong><br>
   <span style="font-size: 0.95em; color: #666;">
     with <a href="https://www.johannesmatt.com/" target="_blank" rel="noopener noreferrer">Johannes Matt</a>
-  </span>
-</div>
+  </span></div>
 
 <div style="height: 18px;"></div>
 
