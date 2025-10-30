@@ -40,9 +40,6 @@ Placement director: [Matthias Doepke](https://www.lse.ac.uk/people/matthias-doep
 
 References: [Wouter den Haan](https://www.lse.ac.uk/people/wouter-den-haan), [Maarten De Ridder](https://www.lse.ac.uk/people/maarten-de-ridder), [Matthias Doepke](https://www.lse.ac.uk/people/matthias-doepke), [Jonathon Hazell](https://www.lse.ac.uk/people/jonathon-hazell)
 
-<br><br>
-Jekyll version: {{ jekyll.version }}
-
 <div style="height: 16px;"></div>
 
 <!-- <div style="max-width: 550px; text-align: justify;"> -->

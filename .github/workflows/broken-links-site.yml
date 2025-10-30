@@ -40,7 +40,7 @@ jobs:
           npm install -g purgecss
           purgecss -c purgecss.config.js
       - name: Link Checker 🔗
-        uses: lycheeverse/lychee-action@2.0.2        
+        uses: lycheeverse/lychee-action@2.0.2
         with:
           fail: true
           # only check local links
