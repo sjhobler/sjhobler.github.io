@@ -28,7 +28,7 @@ I am a 6th year PhD candidate at the London School of Economics. My research int
 
 <!-- I received my undergraduate degree from the University of Warwick and a MPhil degree from the University of Oxford. -->
 
-[Here]({{ site.baseurl }}{% link /assets/cv/CV.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"} is a brief CV. 
+[Here]({{ site.baseurl }}{% link /assets/cv/CV.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"} is a brief CV.
 
 My email is s.j.hobler [at] lse [dot] ac [dot] uk.
 
