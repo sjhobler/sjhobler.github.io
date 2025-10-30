@@ -337,26 +337,26 @@
 
 <!-- Fix Bootstrap collapse and dropdown for mobile -->
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function () {
     // Re-initialize all collapse elements
     var collapseElements = document.querySelectorAll('[data-bs-toggle="collapse"]');
-    collapseElements.forEach(function(element) {
+    collapseElements.forEach(function (element) {
       var targetId = element.getAttribute('data-bs-target');
       var targetElement = document.querySelector(targetId);
-      
+
       if (targetElement) {
-        var bsCollapse = new bootstrap.Collapse(targetElement, {toggle: false});
-        
-        element.addEventListener('click', function(e) {
+        var bsCollapse = new bootstrap.Collapse(targetElement, { toggle: false });
+
+        element.addEventListener('click', function (e) {
           e.preventDefault();
           bsCollapse.toggle();
         });
       }
     });
-    
+
     // Re-initialize all dropdown elements
     var dropdownElements = document.querySelectorAll('[data-bs-toggle="dropdown"]');
-    dropdownElements.forEach(function(element) {
+    dropdownElements.forEach(function (element) {
       new bootstrap.Dropdown(element);
     });
   });
