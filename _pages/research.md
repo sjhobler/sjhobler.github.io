@@ -86,7 +86,7 @@ h1:first-of-type {
       Abstract
     </summary>
     <div style="padding: 10px 0; font-size: 0.95em; line-height: 1.5;">
-        This paper proposes a robust and efficient method of solving models with endogenous borrowing constraints and strategic default in continuous-time. Using a change of variable the free-boundary problem is transformed into a boundary value problem on a fixed domain in which default thresholds enter explicitly as endogenous variables. Default thresholds can then be solved using algorithms that are analogous to solving for fixed point of prices in standard general equilibrium models. I demonstrate the approach using two sovereign default models featuring short-term and long-term debt, respectively. At last, I show how the method can be applied to time dependent problems featuring transition dynamics.
+        This paper proposes a robust and efficient method of solving models with endogenous borrowing constraints and strategic default in continuous-time. Using a change of variable the free-boundary problem is transformed into a boundary value problem on a fixed domain in which default thresholds enter explicitly as endogenous variables. Default thresholds can then be solved using algorithms that are analogous to solving for the fixed point of prices in standard general equilibrium models. I demonstrate the approach using two sovereign default models featuring short-term and long-term debt, respectively. At last, I show how the method can be applied to time-dependent problems featuring transition dynamics.
     </div>
   </details>
 </div>
