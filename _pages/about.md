@@ -24,11 +24,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a 6th year PhD student at the London School of Economics. My research interests are in macroeconomics. My latest research can be found [here](/research/).
+I am a 6th year PhD candidate at the London School of Economics. My research interests are in macroeconomics. For my latest research see [here](/research/). To access my Job Market Paper see [here]({{ site.baseurl }}{% link /assets/papers/jmp/jmp-sj-hobler.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"}.
 
 <!-- I received my undergraduate degree from the University of Warwick and a MPhil degree from the University of Oxford. -->
 
-[Here]({{ site.baseurl }}{% link /assets/cv/CV.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"} is a brief CV.
+[Here]({{ site.baseurl }}{% link /assets/cv/CV.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"} is a brief CV. 
 
 My email is s.j.hobler [at] lse [dot] ac [dot] uk.
 
