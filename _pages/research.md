@@ -91,7 +91,6 @@ h1:first-of-type {
   </details>
 </div>
 
-
 <div style="height: 18px;"></div>
 
 #### Work in Progress
