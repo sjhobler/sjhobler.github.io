@@ -35,7 +35,7 @@ My email is s.j.hobler [at] lse.ac.uk
 <div style="margin: 8px 0;">
   <a href="{{ site.baseurl }}{% link /assets/papers/jmp/jmp-sj-hobler.pdf %}" target="_blank">Job Market Paper</a> | 
   <a href="/research/">Research</a> | 
-  <a href="{{ site.baseurl }}{% link /assets/cv/CV.pdf %}" target="_blank">CV</a>
+  <a href="{{ site.baseurl }}{% link /assets/cv/cv-hobler.pdf %}" target="_blank">CV</a>
 </div>
 
 <div style="height: 16px;"></div>
@@ -59,7 +59,7 @@ My email is s.j.hobler [at] lse.ac.uk
 
 <!-- I received my undergraduate degree from the University of Warwick and a MPhil degree from the University of Oxford. -->
 
-<!-- [Here]({{ site.baseurl }}{% link /assets/cv/CV.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"} is a brief CV. -->
+<!-- [Here]({{ site.baseurl }}{% link /assets/cv/cv-hobler.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"} is a brief CV. -->
 
 
 
@@ -79,7 +79,7 @@ My email is s.j.hobler [at] lse.ac.uk
 <!-- </p> -->
 
 <!-- <p style="margin: 0 5 10px 0;"> -->
-<!-- <a href="{{ site.baseurl }}{% link /assets/cv/CV.pdf %}" target="_blank" rel="noopener noreferrer">Here</a> is a brief CV.<br> -->
+<!-- <a href="{{ site.baseurl }}{% link /assets/cv/cv-hobler.pdf %}" target="_blank" rel="noopener noreferrer">Here</a> is a brief CV.<br> -->
 <!-- </p> -->
 
 <!-- <p style="margin: 0 5 60px 0;"> -->
