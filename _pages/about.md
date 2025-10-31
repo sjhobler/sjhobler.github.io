@@ -28,15 +28,17 @@ I am a 6th year Ph.D. candidate at the London School of Economics. My research i
 
 My email is s.j.hobler [at] lse.ac.uk
 
-<div style="margin: 16px 0;">
+<div style="height: 16px;"></div>
+
+<strong style="font-weight: bold;"> I am on the 2025-2026 academic job market.</strong><br>
+
+<div style="margin: 8px 0;">
   <a href="{{ site.baseurl }}{% link /assets/papers/jmp/jmp-sj-hobler.pdf %}" target="_blank">Job Market Paper</a> | 
   <a href="/research/">Research</a> | 
   <a href="{{ site.baseurl }}{% link /assets/cv/CV.pdf %}" target="_blank">CV</a>
 </div>
 
 <div style="height: 16px;"></div>
-<strong style="font-weight: bold;"> I am on the 2025-2026 academic job market.</strong><br>
-<div style="height: 12px;"></div>
 
 <span style="color: #666;">
   Placement director: 
