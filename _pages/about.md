@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a 6th year PhD candidate at the London School of Economics. My research interests are in macroeconomics. For my latest research see [here](/research/). To access my Job Market Paper see [here]({{ site.baseurl }}{% link /assets/papers/jmp/jmp-sj-hobler.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"}.
+I am a 6th year Ph.D. candidate at the London School of Economics. My research interests are in macroeconomics. For my latest research see [here](/research/). To access my Job Market Paper see [here]({{ site.baseurl }}{% link /assets/papers/jmp/jmp-sj-hobler.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"}.
 
 <!-- I received my undergraduate degree from the University of Warwick and a MPhil degree from the University of Oxford. -->
 
