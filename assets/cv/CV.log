@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2025.10.19)  30 OCT 2025 09:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2025.10.19)  31 OCT 2025 07:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1520,21 +1520,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 104.
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 108.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 109.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 113.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 114.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 115.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 116.
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
 
  []
 
@@ -1543,27 +1543,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--116
 [1
 
 {/home/stephan/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--131
+Underfull \hbox (badness 10000) in paragraph at lines 128--132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--138
+Underfull \hbox (badness 10000) in paragraph at lines 135--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--147
+Underfull \hbox (badness 10000) in paragraph at lines 142--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--156
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
 
  []
 
@@ -1580,11 +1580,11 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 Here is how much of TeX's memory you used:
  28975 strings out of 468082
  541925 string characters out of 5429779
- 964661 words of memory out of 5000000
+ 964660 words of memory out of 5000000
  57087 multiletter control sequences out of 15000+600000
  654709 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,93p,1583b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,93p,1494b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/home/stephan/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/step
 han/.miktex/texmfs/install/fonts/type1/public/fpl/fplrc8a.pfb></home/stephan/.m
 iktex/texmfs/install/fonts/type1/public/fpl/fplrij8a.pfb></home/stephan/.miktex
@@ -1592,7 +1592,7 @@ iktex/texmfs/install/fonts/type1/public/fpl/fplrij8a.pfb></home/stephan/.miktex
 ktex/texmfs/install/fonts/type1/urw/palatino/uplb8a.pfb></home/stephan/.miktex/
 texmfs/install/fonts/type1/urw/palatino/uplr8a.pfb></home/stephan/.miktex/texmf
 s/install/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on CV.pdf (2 pages, 93427 bytes).
+Output written on CV.pdf (2 pages, 93387 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
