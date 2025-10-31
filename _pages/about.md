@@ -24,23 +24,51 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a 6th year Ph.D. candidate at the London School of Economics. My research interests are in macroeconomics. For my latest research see [here](/research/). To access my Job Market Paper see [here]({{ site.baseurl }}{% link /assets/papers/jmp/jmp-sj-hobler.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"}.
+I am a 6th year Ph.D. candidate at the London School of Economics. My research interests include macroeconomics, growth, firm dynamics, and fiscal policy. 
 
-<!-- I received my undergraduate degree from the University of Warwick and a MPhil degree from the University of Oxford. -->
+My email is s.j.hobler [at] lse.ac.uk
 
-[Here]({{ site.baseurl }}{% link /assets/cv/CV.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"} is a brief CV.
-
-My email is s.j.hobler [at] lse [dot] ac [dot] uk.
+<div style="margin: 16px 0;">
+  <a href="{{ site.baseurl }}{% link /assets/papers/jmp/jmp-sj-hobler.pdf %}" target="_blank">Job Market Paper</a> | 
+  <a href="/research/">Research</a> | 
+  <a href="{{ site.baseurl }}{% link /assets/cv/CV.pdf %}" target="_blank">CV</a>
+</div>
 
 <div style="height: 16px;"></div>
 <strong style="font-weight: bold;"> I am on the 2025-2026 academic job market.</strong><br>
 <div style="height: 12px;"></div>
 
-Placement director: [Matthias Doepke](https://www.lse.ac.uk/people/matthias-doepke)
+<span style="color: #666;">
+  Placement director: 
+  <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" >Matthias Doepke</a>
+</span>
 
-References: [Wouter den Haan](https://www.lse.ac.uk/people/wouter-den-haan), [Maarten De Ridder](https://www.lse.ac.uk/people/maarten-de-ridder), [Matthias Doepke](https://www.lse.ac.uk/people/matthias-doepke), [Jonathon Hazell](https://www.lse.ac.uk/people/jonathon-hazell)
+<span style="color: #666;">
+  References: 
+  <a href="https://www.lse.ac.uk/people/wouter-den-haan" target="_blank" >Wouter den Haan</a> | 
+  <a href="https://www.lse.ac.uk/people/maarten-de-ridder" target="_blank" >Maarten De Ridder</a> | 
+  <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" >Matthias Doepke</a> | 
+  <a href="https://www.lse.ac.uk/people/jonathon-hazell" target="_blank" >Jonathon Hazell</a>
+</span>
 
 <div style="height: 16px;"></div>
+
+<!-- For my latest research see [here](/research/). To access my Job Market Paper see [here]({{ site.baseurl }}{% link /assets/papers/jmp/jmp-sj-hobler.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"}. -->
+
+<!-- I received my undergraduate degree from the University of Warwick and a MPhil degree from the University of Oxford. -->
+
+<!-- [Here]({{ site.baseurl }}{% link /assets/cv/CV.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"} is a brief CV. -->
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- <div style="max-width: 550px; text-align: justify;"> -->
 
