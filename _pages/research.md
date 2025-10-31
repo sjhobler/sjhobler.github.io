@@ -100,6 +100,14 @@ h1:first-of-type {
 
 <div style="margin-bottom: 16px;">
   <strong style="font-weight: bold;">Granular Search in the Product Market.</strong><br>
+  <details style="margin-top: 8px;">
+    <summary style="cursor: pointer; color: #0066cc; font-size: 0.95em;">
+      Abstract
+    </summary>
+    <div style="padding: 10px 0; font-size: 0.95em; line-height: 1.5;">
+    This paper studies the implications of the emergence of dominant firms for aggregate market power and the growth of small fringe firms. The greater visibility of large sellers endows them with a matching advantage in the product market which they use to charge high markups. Long-run competitive forces discipline the behaviour of a granular seller and in a natural benchmark model firm dynamics of fringe firms are neutral under the presence of a large seller. I then present an extension in which the presence of the granular seller raises aggregate markups, lowers the growth of the most productive firms and slows down the reallocation of customers from unproductive to productive sellers. This sheds light on a new mechanism of how dominant firms could shape the aggregate behaviour of the macroeconomy.
+    </div>
+  </details>
 </div>
 
 <!-- <div style="margin-bottom: 16px;"> -->
