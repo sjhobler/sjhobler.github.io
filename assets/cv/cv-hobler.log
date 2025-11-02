@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2025.10.19)  31 OCT 2025 20:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2025.10.19)  2 NOV 2025 20:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1585,7 +1585,7 @@ Here is how much of TeX's memory you used:
  57089 multiletter control sequences out of 15000+600000
  654709 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,93p,1493b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,93p,1544b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/home/stephan/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/step
 han/.miktex/texmfs/install/fonts/type1/public/fpl/fplrc8a.pfb></home/stephan/.m
 iktex/texmfs/install/fonts/type1/public/fpl/fplrij8a.pfb></home/stephan/.miktex
@@ -1593,7 +1593,7 @@ iktex/texmfs/install/fonts/type1/public/fpl/fplrij8a.pfb></home/stephan/.miktex
 ktex/texmfs/install/fonts/type1/urw/palatino/uplb8a.pfb></home/stephan/.miktex/
 texmfs/install/fonts/type1/urw/palatino/uplr8a.pfb></home/stephan/.miktex/texmf
 s/install/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv-hobler.pdf (2 pages, 93364 bytes).
+Output written on cv-hobler.pdf (2 pages, 93411 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
