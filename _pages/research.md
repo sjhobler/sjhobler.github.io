@@ -23,7 +23,7 @@ h1:first-of-type {
 <div style="margin-bottom: 16px;">
   <strong style="font-weight: bold;"> Worker Mobility and the Diffusion of Radical Technologies.</strong><br>
   <span style="font-size: 0.95em; color: #666;">
-    <em>Job Market Paper</em> | <a href="/assets/papers/jmp/jmp-sj-hobler.pdf" target="_blank">Link</a>
+    <em style="color: #666;">Job Market Paper</em> | <a href="/assets/papers/jmp/jmp-sj-hobler.pdf" target="_blank">Link</a>
     <!-- Draft coming soon! -->
   </span>
   <details style="margin-top: 8px;">
