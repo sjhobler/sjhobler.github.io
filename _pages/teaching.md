@@ -16,6 +16,17 @@ h1:first-of-type {
 }
 </style>
 
+<style>
+  .adaptive-gray { 
+    color: #666666;  /* Medium gray in light mode */
+  }
+  
+  [data-theme="dark"] .adaptive-gray { 
+    color: #999999;  /* Light gray in dark mode */
+  }
+</style>
+
+
 <div style="height: 8px;"></div>
 
 #### London School of Economics
@@ -24,7 +35,7 @@ h1:first-of-type {
 
 <div style="margin-bottom: 16px;">
   <strong style="font-weight: bold;">EC2B1 – Macroeconomics II</strong><br>
-  <span style="font-size: 0.95em; color: #666;">
+  <span class="adaptive-gray" style="font-size: 0.95em;">
     Course Manager | 2023/24, 2024/25<br>
     Teaching Assistant | 2022/23
   </span>
@@ -32,7 +43,7 @@ h1:first-of-type {
 
 <div style="margin-bottom: 16px;">
   <strong style="font-weight: bold;">EC210 – Macroeconomic Principles</strong><br>
-  <span style="font-size: 0.95em; color: #666;">
+  <span class="adaptive-gray" style="font-size: 0.95em;">
     Teaching Assistant | 2021/22
   </span>
 </div>
@@ -45,7 +56,7 @@ h1:first-of-type {
 
 <div style="margin-bottom: 16px;">
   <strong style="font-weight: bold;">Tools for Macroeconomists – Advanced Tools</strong><br>
-  <span style="font-size: 0.95em; color: #666;">
+  <span class="adaptive-gray" style="font-size: 0.95em;">
     Teaching Assistant, Computational Summer School | 2023, 2024
   </span>
 </div>

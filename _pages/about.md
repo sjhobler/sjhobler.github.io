@@ -24,6 +24,25 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<style>
+  .this-link { 
+    color: #000000;  /* Black in light mode */
+  }
+  
+  [data-theme="dark"] .this-link { 
+    color: #ffffff;  /* White in dark mode */
+  }
+</style>
+<style>
+  .adaptive-gray { 
+    color: #666666;  /* Medium gray in light mode */
+  }
+  
+  [data-theme="dark"] .adaptive-gray { 
+    color: #999999;  /* Light gray in dark mode */
+  }
+</style>
+
 I am a 6th year Ph.D. candidate at the London School of Economics. My research interests include macroeconomics, growth, firm dynamics, and fiscal policy. 
 
 My email is s.j.hobler [at] lse.ac.uk
@@ -40,12 +59,13 @@ My email is s.j.hobler [at] lse.ac.uk
 
 <div style="height: 16px;"></div>
 
-<span style="color: #666;">
+<span class="adaptive-gray">
   Placement director: 
-  <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" >Matthias Doepke</a>
+  <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" class="this-link">Matthias Doepke</a>
+  <!-- <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" >Matthias Doepke</a> -->
 </span>
 
-<span style="color: #666;">
+<span class="adaptive-gray"> 
   References: 
   <a href="https://www.lse.ac.uk/people/wouter-den-haan" target="_blank" >Wouter den Haan</a> | 
   <a href="https://www.lse.ac.uk/people/maarten-de-ridder" target="_blank" >Maarten De Ridder</a> | 

@@ -16,6 +16,17 @@ h1:first-of-type {
 }
 </style>
 
+<style>
+  .adaptive-gray { 
+    color: #666666;  /* Medium gray in light mode */
+  }
+  
+  [data-theme="dark"] .adaptive-gray { 
+    color: #999999;  /* Light gray in dark mode */
+  }
+</style>
+
+
 <div style="height: 8px;"></div>
 
 **_This page is in development and is actively updated with new projects._**
@@ -29,7 +40,7 @@ h1:first-of-type {
 
 <div style="margin-bottom: 16px;">
   <strong style="font-weight: bold;">A front-fixing approach to solving equilibrium models.</strong><br>
-  <span style="font-size: 0.95em; color: #666;">
+  <span class="adaptive-gray" style="font-size: 0.95em;">
      Code coming soon!
   </span>
 </div>
@@ -42,7 +53,7 @@ h1:first-of-type {
 
 <div style="margin-bottom: 16px;">
   <strong style="font-weight: bold;">Atkeson & Burstein (2008)</strong><br>
-  <span style="font-size: 0.95em; color: #666;">
+  <span class="adaptive-gray" style="font-size: 0.95em;">
     Julia and JAX implementation | 
     <a href="https://github.com/sjhobler/AtkesonBursteinCanonical" target="_blank">Repository</a>
   </span>
@@ -58,7 +69,7 @@ h1:first-of-type {
 <strong>Other code</strong><br>
 <div style="margin-bottom: 16px; margin-top: 6px;">
   <strong style="font-weight: bold;">Research Computing Environment</strong>
-  <span style="font-size: 0.95em; color: #666;">
+  <span class="adaptive-gray" style="font-size: 0.95em;">
     | <i class="fas fa-cog"></i> <a href="https://github.com/sjhobler/.dotfiles/tree/main" target="_blank">Dotfiles</a>
   </span>
 </div>
