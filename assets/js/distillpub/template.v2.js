@@ -2596,7 +2596,7 @@ d-citation-list .references .title {
           var env = {
             callback: callback,
             container: container,
-            selector: 'd-code',
+            selector: "d-code",
           };
 
           _.hooks.run("before-highlightall", env);

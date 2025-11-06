@@ -67,7 +67,7 @@ My email is s.j.hobler [at] lse.ac.uk
 
 <span class="adaptive-gray"> 
   References: 
-  <a href="https://www.lse.ac.uk/people/wouter-den-haan" target="_blank" >Wouter den Haan</a> | 
+  <a href="https://www.lse.ac.uk/people/wouter-den-haan" target="_blank" >Wouter Den Haan</a> | 
   <a href="https://www.lse.ac.uk/people/maarten-de-ridder" target="_blank" >Maarten De Ridder</a> | 
   <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" >Matthias Doepke</a> | 
   <a href="https://www.lse.ac.uk/people/jonathon-hazell" target="_blank" >Jonathon Hazell</a>
