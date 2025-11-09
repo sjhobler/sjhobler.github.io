@@ -26,7 +26,6 @@ h1:first-of-type {
   }
 </style>
 
-
 <div style="height: 8px;"></div>
 
 #### London School of Economics
@@ -60,9 +59,6 @@ h1:first-of-type {
     Class Teacher, Computational Summer School | 2023, 2024
   </span>
 </div>
-
-
-
 
 <!-- --- -->
 <!-- layout: page -->

@@ -26,13 +26,11 @@ h1:first-of-type {
   }
 </style>
 
-
 <div style="height: 8px;"></div>
 
 **_This page is in development and is actively updated with new projects._**
 
 <div style="height: 18px;"></div>
-
 
 <!-- #### Research Code -->
 

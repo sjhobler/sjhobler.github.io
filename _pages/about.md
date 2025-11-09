@@ -43,7 +43,7 @@ latest_posts:
   }
 </style>
 
-I am a 6th year Ph.D. candidate at the London School of Economics. My research interests include macroeconomics, growth, firm dynamics, and fiscal policy. 
+I am a 6th year Ph.D. candidate at the London School of Economics. My research interests include macroeconomics, growth, firm dynamics, and fiscal policy.
 
 My email is s.j.hobler [at] lse.ac.uk
 
@@ -80,17 +80,6 @@ My email is s.j.hobler [at] lse.ac.uk
 <!-- I received my undergraduate degree from the University of Warwick and a MPhil degree from the University of Oxford. -->
 
 <!-- [Here]({{ site.baseurl }}{% link /assets/cv/cv-hobler.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"} is a brief CV. -->
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- <div style="max-width: 550px; text-align: justify;"> -->
 
