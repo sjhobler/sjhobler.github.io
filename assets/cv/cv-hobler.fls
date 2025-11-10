@@ -428,8 +428,6 @@ INPUT ./cv-hobler.out
 INPUT /home/stephan/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc
 INPUT /home/stephan/.miktex/texmfs/install/fonts/type1/public/fpl/fplrc8a.pfb
 INPUT /home/stephan/.miktex/texmfs/install/fonts/type1/public/fpl/fplrc8a.pfb
-INPUT /home/stephan/.miktex/texmfs/install/fonts/type1/public/fpl/fplrij8a.pfb
-INPUT /home/stephan/.miktex/texmfs/install/fonts/type1/public/fpl/fplrij8a.pfb
 INPUT /home/stephan/.miktex/texmfs/install/fonts/type1/public/mathabx-type1/matha10.pfb
 INPUT /home/stephan/.miktex/texmfs/install/fonts/type1/public/mathabx-type1/matha10.pfb
 INPUT /home/stephan/.miktex/texmfs/install/fonts/type1/urw/palatino/uplb8a.pfb
