@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2025.10.19)  10 NOV 2025 10:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2025.10.19)  10 NOV 2025 14:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1586,7 +1586,7 @@ Package rerunfilecheck Info: File `cv-hobler.out' has not changed.
 Here is how much of TeX's memory you used:
  28977 strings out of 468082
  542086 string characters out of 5429779
- 964694 words of memory out of 5000000
+ 965694 words of memory out of 5000000
  57089 multiletter control sequences out of 15000+600000
  654709 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1597,7 +1597,7 @@ iktex/texmfs/install/fonts/type1/public/mathabx-type1/matha10.pfb></home/stepha
 n/.miktex/texmfs/install/fonts/type1/urw/palatino/uplb8a.pfb></home/stephan/.mi
 ktex/texmfs/install/fonts/type1/urw/palatino/uplr8a.pfb></home/stephan/.miktex/
 texmfs/install/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv-hobler.pdf (2 pages, 88653 bytes).
+Output written on cv-hobler.pdf (2 pages, 88652 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
