@@ -110,7 +110,7 @@ h1:first-of-type {
 <div style="margin-bottom: 16px;">
   <strong style="font-weight: bold;">Granular Search in the Product Market.</strong><br>
   <span class="adaptive-gray" style="font-size: 0.95em;">
-    <a href="/assets/papers/granular-search-product.pdf" target="_blank">Link</a>
+    Preliminary draft | <a href="/assets/papers/granular-search-product.pdf" target="_blank">Link</a>
   </span>
   <details style="margin-top: 8px;">
     <summary style="cursor: pointer; color: #0066cc; font-size: 0.95em;">
