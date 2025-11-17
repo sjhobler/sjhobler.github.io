@@ -396,7 +396,6 @@ INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/adobe/palatino/pplb9o.tfm
 INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/adobe/palatino/pplri9o.tfm
 INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/adobe/palatino/pplr9o.tfm
 INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/adobe/palatino/pplb9o.tfm
-INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/adobe/palatino/pplri9o.tfm
 INPUT /home/stephan/.miktex/texmfs/install/fonts/vf/adobe/palatino/pplb9o.vf
 INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/public/mathpazo/fplmb.tfm
 INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/adobe/palatino/pplb8r.tfm
@@ -418,10 +417,10 @@ INPUT /home/stephan/.miktex/texmfs/install/fonts/vf/adobe/palatino/pplb9o.vf
 INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/public/mathpazo/fplmb.tfm
 INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/adobe/palatino/pplbj8r.tfm
-INPUT /home/stephan/.miktex/texmfs/install/fonts/vf/adobe/palatino/pplri9o.vf
-INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/public/mathpazo/fplmri.tfm
-INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/adobe/palatino/pplri8r.tfm
-INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/adobe/palatino/pplrij8r.tfm
+INPUT /home/stephan/.miktex/texmfs/install/fonts/vf/adobe/palatino/pplr9o.vf
+INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/public/mathpazo/fplmr.tfm
+INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT /home/stephan/.miktex/texmfs/install/fonts/tfm/adobe/palatino/pplrc8r.tfm
 INPUT cv-hobler.aux
 INPUT ./cv-hobler.out
 INPUT ./cv-hobler.out
