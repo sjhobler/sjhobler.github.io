@@ -24,11 +24,14 @@ $light-purple-color: adjust-color($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
+$gold-color-1: #ffb400 !default;
+$gold-color-2: #e0af68 !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: adjust-color($grey-color, $lightness: 40%);
 $grey-color-dark: #1c1c1d;
 $grey-900: #212529;
+$grey-custom: #1f2022;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;

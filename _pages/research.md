@@ -26,6 +26,16 @@ h1:first-of-type {
   }
 </style>
 
+<style>
+  .adaptive-blue { 
+    color: #0969da;  /* blue in light mode */
+  }
+  
+  [data-theme="dark"] .adaptive-blue { 
+    color: #5dade2;  /* similar to GitHub's dark mode */
+  }
+</style>
+
 <div style="height: 8px;"></div>
 #### Job Market Paper
 <div style="height: 8px;"></div>
@@ -37,7 +47,7 @@ h1:first-of-type {
     <!-- Draft coming soon! -->
   </span>
   <details style="margin-top: 8px;">
-    <summary style="cursor: pointer; color: #0066cc; font-size: 0.95em;">
+    <summary class="adaptive-blue" style="cursor: pointer; font-size: 0.95em;">
       Abstract
     </summary>
     <div style="padding: 10px 0; font-size: 0.95em; line-height: 1.5;">
@@ -60,7 +70,7 @@ h1:first-of-type {
     <a href="https://jadhazell.github.io/website/Fiscal_Inflation_Draft.pdf" target="_blank">Working Paper</a>
   </span>
   <details style="margin-top: 8px;">
-    <summary style="cursor: pointer; color: #0066cc; font-size: 0.95em;">
+    <summary class="adaptive-blue" style="cursor: pointer; font-size: 0.95em;">
       Abstract
     </summary>
     <div style="padding: 10px 0; font-size: 0.95em; line-height: 1.5;">
@@ -77,7 +87,7 @@ h1:first-of-type {
     <a href="https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2025/twerp_1577-_van_rens.pdf" target="_blank">Working Paper</a>
   </span>
   <details style="margin-top: 8px;">
-    <summary style="cursor: pointer; color: #0066cc; font-size: 0.95em;">
+    <summary class="adaptive-blue" style="cursor: pointer; font-size: 0.95em;">
       Abstract
     </summary>
     <div style="padding: 10px 0; font-size: 0.95em; line-height: 1.5;">
@@ -92,7 +102,7 @@ h1:first-of-type {
     Computational Note | <a href="/assets/papers/ff_paper.pdf" target="_blank">Link</a> | Code coming soon!
   </span>
   <details style="margin-top: 8px;">
-    <summary style="cursor: pointer; color: #0066cc; font-size: 0.95em;">
+    <summary class="adaptive-blue" style="cursor: pointer; font-size: 0.95em;">
       Abstract
     </summary>
     <div style="padding: 10px 0; font-size: 0.95em; line-height: 1.5;">
@@ -113,7 +123,7 @@ h1:first-of-type {
     Preliminary draft | <a href="/assets/papers/granular-search-product.pdf" target="_blank">Link</a>
   </span>
   <details style="margin-top: 8px;">
-    <summary style="cursor: pointer; color: #0066cc; font-size: 0.95em;">
+    <summary class="adaptive-blue" style="cursor: pointer; font-size: 0.95em;">
       Abstract
     </summary>
     <div style="padding: 10px 0; font-size: 0.95em; line-height: 1.5;">
