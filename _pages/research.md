@@ -28,7 +28,7 @@ h1:first-of-type {
 
 <style>
   .adaptive-blue { 
-    color: #0969da;  /* blue in light mode */
+    color: #666666; /* #0969da;   blue in light mode */
   }
   
   [data-theme="dark"] .adaptive-blue { 
@@ -40,13 +40,13 @@ h1:first-of-type {
 #### Job Market Paper
 <div style="height: 8px;"></div>
 
-<div style="margin-bottom: 16px;">
+<div style="margin-bottom: 20px;">
   <strong style="font-weight: bold;"> Worker Mobility and the Diffusion of Radical Technologies.</strong><br>
   <span class="adaptive-gray" style="font-size: 0.95em;">
     <em class="adaptive-gray">Job Market Paper</em> | <a href="/assets/papers/jmp/jmp-sj-hobler.pdf" target="_blank">Link</a>
     <!-- Draft coming soon! -->
   </span>
-  <details style="margin-top: 8px;">
+  <details style="margin-top: 4px;">
     <summary class="adaptive-blue" style="cursor: pointer; font-size: 0.95em;">
       Abstract
     </summary>
@@ -63,13 +63,13 @@ h1:first-of-type {
 
 <div style="height: 8px;"></div>
 
-<div style="margin-bottom: 16px;">
+<div style="margin-bottom: 20px;">
   <strong style="font-weight: bold;"> Do Deficits Cause Inflation? A High Frequency Narrative Approach.</strong><br>
   <span class="adaptive-gray" style="font-size: 0.95em;">
     with <a href="https://sites.google.com/view/jadhazell/home?authuser=0" target="_blank">Jonathon Hazell</a> | June 2025 | 
     <a href="https://jadhazell.github.io/website/Fiscal_Inflation_Draft.pdf" target="_blank">Working Paper</a>
   </span>
-  <details style="margin-top: 8px;">
+  <details style="margin-top: 4px;">
     <summary class="adaptive-blue" style="cursor: pointer; font-size: 0.95em;">
       Abstract
     </summary>
@@ -79,14 +79,14 @@ h1:first-of-type {
   </details>
 </div>
 
-<div style="margin-bottom: 16px;">
-  <strong style="font-weight: bold;">Why did we think wages are rigid for all those years?</strong><br>
+<div style="margin-bottom: 20px;">
+  <strong style="font-weight: bold;">Why did we think wages are so rigid for all those years?</strong><br>
   <span class="adaptive-gray" style="font-size: 0.95em;">
     with <a href="https://seeyuchan.com/" target="_blank">See Yu Chan</a> and 
     <a href="https://www.thijsvanrens.com/" target="_blank">Thijs van Rens</a> | September 2025 | 
     <a href="https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2025/twerp_1577-_van_rens.pdf" target="_blank">Working Paper</a>
   </span>
-  <details style="margin-top: 8px;">
+  <details style="margin-top: 4px;">
     <summary class="adaptive-blue" style="cursor: pointer; font-size: 0.95em;">
       Abstract
     </summary>
@@ -96,12 +96,12 @@ h1:first-of-type {
   </details>
 </div>
 
-<div style="margin-bottom: 16px;">
+<div style="margin-bottom: 20px;">
   <strong style="font-weight: bold;">A front fixing approach to solving sovereign default models.</strong><br>
   <span class="adaptive-gray" style="font-size: 0.95em;">
     Computational Note | <a href="/assets/papers/ff_paper.pdf" target="_blank">Link</a> | Code coming soon!
   </span>
-  <details style="margin-top: 8px;">
+  <details style="margin-top: 4px;">
     <summary class="adaptive-blue" style="cursor: pointer; font-size: 0.95em;">
       Abstract
     </summary>
@@ -117,12 +117,12 @@ h1:first-of-type {
 
 <div style="height: 8px;"></div>
 
-<div style="margin-bottom: 16px;">
+<div style="margin-bottom: 20px;">
   <strong style="font-weight: bold;">Granular Search in the Product Market.</strong><br>
   <span class="adaptive-gray" style="font-size: 0.95em;">
     Preliminary draft | <a href="/assets/papers/granular-search-product.pdf" target="_blank">Link</a>
   </span>
-  <details style="margin-top: 8px;">
+  <details style="margin-top: 4px;">
     <summary class="adaptive-blue" style="cursor: pointer; font-size: 0.95em;">
       Abstract
     </summary>
@@ -136,7 +136,7 @@ h1:first-of-type {
 <!--   <strong style="font-weight: bold;">A front fixing approach to solving sovereign default models.</strong><br> -->
 <!-- </div> -->
 
-<div style="margin-bottom: 16px;">
+<div style="margin-bottom: 20px;">
   <strong style="font-weight: bold;">Intangible capital, leverage dynamics, and economic growth.</strong><br>
   <span class="adaptive-gray" style="font-size: 0.95em;">
     with <a href="https://www.johannesmatt.com/" target="_blank" rel="noopener noreferrer">Johannes Matt</a>
@@ -146,7 +146,7 @@ h1:first-of-type {
 
 #### Publications
 
-<div style="margin-bottom: 16px;">
+<div style="margin-bottom: 20px;">
   <strong style="font-weight: bold;">Multi-layered rational inattention and time-varying volatility.</strong><br>
   <span class="adaptive-gray" style="font-size: 0.95em;">
     <em>Journal of Economic Dynamics and Control</em>, 2022 | 

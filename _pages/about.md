@@ -73,7 +73,9 @@ My email is s.j.hobler [at] lse.ac.uk
   <a href="https://www.lse.ac.uk/people/jonathon-hazell" target="_blank" class="this-link">Jonathon Hazell</a>
 </span>
 
-<div style="height: 16px;"></div>
+<div style="height: 48px;"></div>
+
+<!-- <div style="height: 500px;"></div> -->
 
 <!-- For my latest research see [here](/research/). To access my Job Market Paper see [here]({{ site.baseurl }}{% link /assets/papers/jmp/jmp-sj-hobler.pdf %}){:target="\_blank"}{:rel="noopener noreferrer"}. -->
 
