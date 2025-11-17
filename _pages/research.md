@@ -82,7 +82,7 @@ h1:first-of-type {
 <div style="margin-bottom: 20px;">
   <strong style="font-weight: bold;">Why did we think wages are so rigid for all those years?</strong><br>
   <span class="adaptive-gray" style="font-size: 0.95em;">
-    with <a href="https://seeyuchan.com/" target="_blank">See Yu Chan</a> and 
+    with <a href="https://seeyuchan.com/" target="_blank">See-Yu Chan</a> and 
     <a href="https://www.thijsvanrens.com/" target="_blank">Thijs van Rens</a> | September 2025 | 
     <a href="https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2025/twerp_1577-_van_rens.pdf" target="_blank">Working Paper</a>
   </span>
