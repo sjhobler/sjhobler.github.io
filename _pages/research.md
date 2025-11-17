@@ -32,7 +32,7 @@ h1:first-of-type {
   }
   
   [data-theme="dark"] .adaptive-blue { 
-    color: #5dade2;  /* similar to GitHub's dark mode */
+    color: #999999;  /* Light gray in dark mode OLD:similar to GitHub's dark mode #5dade2*/
   }
 </style>
 
