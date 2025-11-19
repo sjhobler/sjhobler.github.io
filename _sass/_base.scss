@@ -242,10 +242,11 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Navbar customization
+// 1px solid var(--global-divider-color);
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: none !important;
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
