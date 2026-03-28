@@ -66,9 +66,10 @@ h1:first-of-type {
 <div style="margin-bottom: 16px;">
 <strong>Other code</strong><br>
 <div style="margin-bottom: 16px; margin-top: 6px;">
-  <strong style="font-weight: bold;">Research Computing Environment</strong>
+  <!-- <strong style="font-weight: bold;">Research Computing Environment</strong> -->
   <span class="adaptive-gray" style="font-size: 0.95em;">
-    | <i class="fas fa-cog"></i> <a href="https://github.com/sjhobler/.dotfiles/tree/main" target="_blank">Dotfiles</a>
+    <!-- | --> 
+    <i class="fas fa-cog"></i> <a href="https://github.com/sjhobler/.dotfiles/tree/main" target="_blank">Dotfiles</a>
   </span>
 </div>
 </div>
