@@ -96,21 +96,6 @@ h1:first-of-type {
   </details>
 </div>
 
-<div style="margin-bottom: 20px;">
-  <strong style="font-weight: bold;">A front fixing approach to solving sovereign default models.</strong><br>
-  <span class="adaptive-gray" style="font-size: 0.95em;">
-    Computational Note | <a href="/assets/papers/ff_paper.pdf" target="_blank"><u>PDF</u></a> | Code coming soon!
-  </span>
-  <details style="margin-top: 4px;">
-    <summary class="adaptive-blue" style="cursor: pointer; font-size: 0.95em;">
-      Abstract
-    </summary>
-    <div style="padding: 10px 0; font-size: 0.95em; line-height: 1.5;">
-        This paper proposes a robust and efficient method of solving models with endogenous borrowing constraints and strategic default in continuous-time. Using a change of variable the free-boundary problem is transformed into a boundary value problem on a fixed domain in which default thresholds enter explicitly as endogenous variables. Default thresholds can then be solved using algorithms that are analogous to solving for the fixed point of prices in standard general equilibrium models. I demonstrate the approach using two sovereign default models featuring short-term and long-term debt, respectively. At last, I show how the method can be applied to time-dependent problems featuring transition dynamics.
-    </div>
-  </details>
-</div>
-
 <div style="height: 18px;"></div>
 
 #### Work in Progress
@@ -133,14 +118,29 @@ h1:first-of-type {
 </div>
 
 <!-- <div style="margin-bottom: 16px;"> -->
+<div style="margin-bottom: 20px;">
+  <strong style="font-weight: bold;">A front fixing approach to solving sovereign default models.</strong><br>
+  <span class="adaptive-gray" style="font-size: 0.95em;">
+    Computational Note | <a href="/assets/papers/ff_paper.pdf" target="_blank"><u>PDF</u></a> | Code coming soon!
+  </span>
+  <details style="margin-top: 4px;">
+    <summary class="adaptive-blue" style="cursor: pointer; font-size: 0.95em;">
+      Abstract
+    </summary>
+    <div style="padding: 10px 0; font-size: 0.95em; line-height: 1.5;">
+        This paper proposes a robust and efficient method of solving models with endogenous borrowing constraints and strategic default in continuous-time. Using a change of variable the free-boundary problem is transformed into a boundary value problem on a fixed domain in which default thresholds enter explicitly as endogenous variables. Default thresholds can then be solved using algorithms that are analogous to solving for the fixed point of prices in standard general equilibrium models. I demonstrate the approach using two sovereign default models featuring short-term and long-term debt, respectively. At last, I show how the method can be applied to time-dependent problems featuring transition dynamics.
+    </div>
+  </details>
+</div>
 <!--   <strong style="font-weight: bold;">A front fixing approach to solving sovereign default models.</strong><br> -->
 <!-- </div> -->
 
-<div style="margin-bottom: 20px;">
-  <strong style="font-weight: bold;">Intangible capital, leverage dynamics, and economic growth.</strong><br>
-  <span class="adaptive-gray" style="font-size: 0.95em;">
-    with <a href="https://www.johannesmatt.com/" target="_blank" rel="noopener noreferrer">Johannes Matt</a>
-  </span></div>
+
+<!-- <div style="margin-bottom: 20px;"> -->
+<!--   <strong style="font-weight: bold;">Intangible capital, leverage dynamics, and economic growth.</strong><br> -->
+<!--   <span class="adaptive-gray" style="font-size: 0.95em;"> -->
+<!--     with <a href="https://www.johannesmatt.com/" target="_blank" rel="noopener noreferrer">Johannes Matt</a> -->
+<!--   </span></div> -->
 
 <div style="height: 18px;"></div>
 

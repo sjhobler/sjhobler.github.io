@@ -8,6 +8,8 @@ profile:
   align: right
   image: profilepic.jpg
   image_circular: false # crops the image to make it circular
+  # more_info: >
+  #   <p>Ph.D. Candidate, London School of Economics</p>
   more_info:
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -43,37 +45,45 @@ latest_posts:
   }
 </style>
 
-I am a Ph.D. candidate at the London School of Economics. My research interests include macroeconomics, growth, firm dynamics, and fiscal policy.
-
-My email is s.j.hobler [at] lse.ac.uk
-
 <div style="height: 16px;"></div>
 
-<strong style="font-weight: bold;"> I am on the 2025-2026 academic job market.</strong><br>
+I am a Ph.D. candidate at the London School of Economics. In September 2026, I will be joining as a Postdoctoral Prize Research Fellow at <span style="color: var(--global-theme-color); font-weight: bold;">Nuffield College, Oxford</span>.
 
-<div style="margin: 8px 0;">
-  <a href="{{ site.baseurl }}{% link /assets/papers/jmp/jmp-sj-hobler.pdf %}" target="_blank">Job Market Paper</a> | 
-  <a href="/research/">Research</a> | 
-  <a href="{{ site.baseurl }}{% link /assets/cv/cv-hobler.pdf %}" target="_blank">CV</a>
-</div>
+<div style="height: 8px;"></div>
 
-<div style="height: 16px;"></div>
+My research interests include macroeconomics, growth, firm dynamics, and fiscal policy.
 
-<span class="adaptive-gray">
-  Placement director: 
-  <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" class="this-link">Matthias Doepke</a>
-  <!-- <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" >Matthias Doepke</a> -->
-</span>
+<div style="height: 8px;"></div>
 
-<span class="adaptive-gray"> 
-  References: 
-  <a href="https://www.lse.ac.uk/people/wouter-den-haan" target="_blank" class="this-link">Wouter Den Haan</a> | 
-  <a href="https://www.lse.ac.uk/people/maarten-de-ridder" target="_blank" class="this-link">Maarten De Ridder</a> | 
-  <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" class="this-link">Matthias Doepke</a> | 
-  <a href="https://www.lse.ac.uk/people/jonathon-hazell" target="_blank" class="this-link">Jonathon Hazell</a>
-</span>
+Contact: [s.j.hobler [at] lse.ac.uk](mailto:s.j.hobler@lse.ac.uk)
 
-<div style="height: 48px;"></div>
+<!-- <div style="height: 16px;"></div> -->
+
+<!-- <strong style="font-weight: bold;"> I am on the 2025-2026 academic job market.</strong><br> -->
+
+<!-- <div style="margin: 8px 0;"> -->
+<!--   <a href="{{ site.baseurl }}{% link /assets/papers/jmp/jmp-sj-hobler.pdf %}" target="_blank">Job Market Paper</a> | --> 
+<!--   <a href="/research/">Research</a> | --> 
+<!--   <a href="{{ site.baseurl }}{% link /assets/cv/cv-hobler.pdf %}" target="_blank">CV</a> -->
+<!-- </div> -->
+
+<!-- <div style="height: 16px;"></div> -->
+
+<!-- <span class="adaptive-gray"> -->
+<!--   Placement director: --> 
+<!--   <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" class="this-link">Matthias Doepke</a> -->
+<!--   <!-1- <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" >Matthias Doepke</a> -1-> -->
+<!-- </span> -->
+
+<!-- <span class="adaptive-gray"> --> 
+<!--   References: --> 
+<!--   <a href="https://www.lse.ac.uk/people/wouter-den-haan" target="_blank" class="this-link">Wouter Den Haan</a> | --> 
+<!--   <a href="https://www.lse.ac.uk/people/maarten-de-ridder" target="_blank" class="this-link">Maarten De Ridder</a> | --> 
+<!--   <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" class="this-link">Matthias Doepke</a> | --> 
+<!--   <a href="https://www.lse.ac.uk/people/jonathon-hazell" target="_blank" class="this-link">Jonathon Hazell</a> -->
+<!-- </span> -->
+
+<!-- <div style="height: 48px;"></div> -->
 
 <!-- <div style="height: 500px;"></div> -->
 
