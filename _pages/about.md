@@ -62,24 +62,24 @@ Contact: [s.j.hobler [at] lse.ac.uk](mailto:s.j.hobler@lse.ac.uk)
 <!-- <strong style="font-weight: bold;"> I am on the 2025-2026 academic job market.</strong><br> -->
 
 <!-- <div style="margin: 8px 0;"> -->
-<!--   <a href="{{ site.baseurl }}{% link /assets/papers/jmp/jmp-sj-hobler.pdf %}" target="_blank">Job Market Paper</a> | --> 
-<!--   <a href="/research/">Research</a> | --> 
+<!--   <a href="{{ site.baseurl }}{% link /assets/papers/jmp/jmp-sj-hobler.pdf %}" target="_blank">Job Market Paper</a> | -->
+<!--   <a href="/research/">Research</a> | -->
 <!--   <a href="{{ site.baseurl }}{% link /assets/cv/cv-hobler.pdf %}" target="_blank">CV</a> -->
 <!-- </div> -->
 
 <!-- <div style="height: 16px;"></div> -->
 
 <!-- <span class="adaptive-gray"> -->
-<!--   Placement director: --> 
+<!--   Placement director: -->
 <!--   <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" class="this-link">Matthias Doepke</a> -->
 <!--   <!-1- <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" >Matthias Doepke</a> -1-> -->
 <!-- </span> -->
 
-<!-- <span class="adaptive-gray"> --> 
-<!--   References: --> 
-<!--   <a href="https://www.lse.ac.uk/people/wouter-den-haan" target="_blank" class="this-link">Wouter Den Haan</a> | --> 
-<!--   <a href="https://www.lse.ac.uk/people/maarten-de-ridder" target="_blank" class="this-link">Maarten De Ridder</a> | --> 
-<!--   <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" class="this-link">Matthias Doepke</a> | --> 
+<!-- <span class="adaptive-gray"> -->
+<!--   References: -->
+<!--   <a href="https://www.lse.ac.uk/people/wouter-den-haan" target="_blank" class="this-link">Wouter Den Haan</a> | -->
+<!--   <a href="https://www.lse.ac.uk/people/maarten-de-ridder" target="_blank" class="this-link">Maarten De Ridder</a> | -->
+<!--   <a href="https://www.lse.ac.uk/people/matthias-doepke" target="_blank" class="this-link">Matthias Doepke</a> | -->
 <!--   <a href="https://www.lse.ac.uk/people/jonathon-hazell" target="_blank" class="this-link">Jonathon Hazell</a> -->
 <!-- </span> -->
 

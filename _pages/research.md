@@ -135,7 +135,6 @@ h1:first-of-type {
 <!--   <strong style="font-weight: bold;">A front fixing approach to solving sovereign default models.</strong><br> -->
 <!-- </div> -->
 
-
 <!-- <div style="margin-bottom: 20px;"> -->
 <!--   <strong style="font-weight: bold;">Intangible capital, leverage dynamics, and economic growth.</strong><br> -->
 <!--   <span class="adaptive-gray" style="font-size: 0.95em;"> -->
