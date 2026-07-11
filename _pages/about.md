@@ -51,11 +51,12 @@ I am a Ph.D. candidate at the London School of Economics. In September 2026, I w
 
 <div style="height: 8px;"></div>
 
-My research interests include macroeconomics, growth, firm dynamics, and fiscal policy.
-
-<div style="height: 8px;"></div>
-
 Contact: [s.j.hobler [at] lse.ac.uk](mailto:s.j.hobler@lse.ac.uk)
+
+<div class="home-quick-links">
+  <a href="{{ '/assets/cv/cv-hobler.pdf' | relative_url }}">Curriculum Vitae</a>
+  <a href="#research">Research</a>
+</div>
 
 <!-- <div style="height: 16px;"></div> -->
 
