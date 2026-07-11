@@ -21,6 +21,9 @@
   text-rendering: auto;
   line-height: 1;
 }
+.ai-cv:before {
+  content: "\e9a5";
+}
 .ai-google-scholar:before {
   content: "\e9d4";
 }

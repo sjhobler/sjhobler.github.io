@@ -69,14 +69,6 @@
 .white {
   background-color: #fff !important;
 }
-.z-depth-1 {
-  -webkit-box-shadow:
-    0 2px 5px 0 rgba(0, 0, 0, 0.16),
-    0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
-  box-shadow:
-    0 2px 5px 0 rgba(0, 0, 0, 0.16),
-    0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
-}
 .disabled {
   pointer-events: none !important;
 }
@@ -3025,11 +3017,11 @@ a.waves-light {
     0 5px 11px 0 rgba(0, 0, 0, 0.18),
     0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
-.btn .fas.right,
+
 .btn .far.right {
   margin-left: 0.3rem;
 }
-.btn .fas.left,
+
 .btn .far.left {
   margin-right: 0.3rem;
 }
@@ -3269,7 +3261,7 @@ a.btn:not([href]):not([tabindex]):hover {
 .navbar .nav-item .nav-link.disabled:active {
   pointer-events: none;
 }
-.navbar .nav-item .nav-link .fas,
+
 .navbar .nav-item .nav-link .far {
   padding-right: 3px;
   padding-left: 3px;
@@ -3381,16 +3373,6 @@ a.btn:not([href]):not([tabindex]):hover {
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
-}
-.badge {
-  color: #fff !important;
-  border-radius: 0.125rem;
-  -webkit-box-shadow:
-    0 2px 5px 0 rgba(0, 0, 0, 0.16),
-    0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  box-shadow:
-    0 2px 5px 0 rgba(0, 0, 0, 0.16),
-    0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 body.modal-open {
   padding-right: 0 !important;
@@ -3650,14 +3632,6 @@ table.table-sm td {
   font-size: 0.8rem;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
-}
-.treeview-colorful .treeview-colorful-items-header .fas {
-  position: relative;
-  color: #ffac47;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
 }
 .treeview-colorful .treeview-colorful-items-header .fa-minus-circle {
   position: relative;
