@@ -1,0 +1,246 @@
+/* Streamlined homepage sections, built on the existing al-folio theme. */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.home-intro {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(160px, 200px) minmax(0, 1fr);
+  gap: clamp(32px, 5vw, 58px);
+  align-items: start;
+}
+
+.home-portrait figure {
+  margin: 0;
+}
+
+.home-portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.home-profile-links {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  margin-top: 11px;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.home-profile-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 30px;
+  min-height: 30px;
+  color: var(--global-text-color-light);
+  border-radius: 3px;
+}
+
+.home-profile-links a:hover {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.home-profile-links a:focus-visible,
+#light-toggle.home-theme-toggle:focus-visible {
+  color: var(--global-theme-color);
+  outline: 1px solid var(--global-theme-color);
+  outline-offset: 2px;
+}
+
+.home-intro-copy {
+  min-width: 0;
+  padding: 4px 34px 0 0;
+}
+
+.home-intro .post-header {
+  margin-bottom: 16px;
+}
+
+.home-intro .post-title {
+  margin: 0;
+  color: var(--global-text-color);
+  font-size: 1.9rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.about-content-wrapper {
+  max-width: 600px;
+  text-align: left;
+}
+
+.about-content-wrapper > p:first-child {
+  margin-top: 0;
+}
+
+.home-contact-links {
+  display: grid;
+  gap: 2px;
+  margin-top: 12px;
+  font-size: inherit;
+  text-align: left;
+}
+
+#light-toggle.home-theme-toggle {
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  color: var(--global-text-color-light);
+  line-height: 1;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+#light-toggle.home-theme-toggle:hover {
+  color: var(--global-theme-color);
+}
+
+.home-theme-toggle i {
+  color: inherit;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.home-intro .home-theme-toggle #light-toggle-system,
+.home-intro .home-theme-toggle #light-toggle-dark,
+.home-intro .home-theme-toggle #light-toggle-light {
+  padding: 0;
+}
+
+.home-section {
+  padding-top: 66px;
+  padding-bottom: 18px;
+  scroll-margin-top: 54px;
+}
+
+.home-research-group + .home-research-group {
+  margin-top: 46px;
+}
+
+.home-research-group > h2 {
+  margin: 0 0 10px;
+  color: var(--global-text-color-light);
+  font-size: 0.94rem;
+  font-weight: 600;
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+}
+
+.home-research-separator {
+  margin: 0 0 22px;
+  border: 0;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.home-paper {
+  margin-bottom: 25px;
+}
+
+.home-paper + .home-paper {
+  margin-top: 25px;
+}
+
+.home-paper h3 {
+  margin: 0 0 2px;
+  color: var(--global-text-color);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.home-paper-meta {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.home-paper-meta em {
+  color: inherit;
+}
+
+.home-paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 12px;
+  margin-top: 3px;
+}
+
+.home-paper-links > a {
+  font-size: 0.84rem;
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
+.home-abstract {
+  display: inline;
+  font-size: 0.84rem;
+}
+
+.home-abstract[open] {
+  flex: 0 0 100%;
+}
+
+.home-abstract > summary {
+  width: fit-content;
+  color: var(--global-text-color-light);
+  cursor: pointer;
+  transition: color 120ms ease;
+}
+
+.home-abstract > summary:hover,
+.home-abstract > summary:focus-visible {
+  color: var(--global-text-color);
+}
+
+.home-abstract > p {
+  margin: 7px 0 0;
+  padding: 5px 0;
+  color: var(--global-text-color);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 575px) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .home-intro {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .home-portrait {
+    width: min(165px, 50vw);
+  }
+
+  .home-intro-copy {
+    padding-right: 0;
+  }
+  .home-section {
+    padding-top: 52px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

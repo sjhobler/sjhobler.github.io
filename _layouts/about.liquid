@@ -1,52 +1,64 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="grey-color">
-          {{ site.first_name }}
-          {{ site.middle_name }}
-          {{ site.last_name }}
-        </span>
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+<div class="post home-page">
+  <section class="home-intro" aria-labelledby="home-name">
+    {% if site.enable_darkmode %}
+      <button id="light-toggle" class="home-theme-toggle" type="button" title="Change colour theme" aria-label="Change colour theme">
+        <i class="ti ti-sun-moon" id="light-toggle-system" aria-hidden="true"></i>
+        <i class="ti ti-moon-filled" id="light-toggle-dark" aria-hidden="true"></i>
+        <i class="ti ti-sun-filled" id="light-toggle-light" aria-hidden="true"></i>
+      </button>
+    {% endif %}
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
+    {% if page.profile and page.profile.image %}
+      {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+      {% capture sizes %}(min-width: 641px) 200px, 165px{% endcapture %}
+      <div class="home-portrait">
+        {%
+          include figure.liquid loading="eager" path=profile_image_path class="img-fluid" sizes=sizes alt=page.profile.image_alt
+          cache_bust=true
+        %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+        <nav class="home-profile-links" aria-label="Profile links">
+          <a href="{{ '/assets/cv/cv-hobler.pdf' | relative_url }}" title="CV" aria-label="CV"><i class="ai ai-cv" aria-hidden="true"></i></a>
+          <a href="mailto:{{ site.data.socials.email }}" title="Email" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+          <a href="https://github.com/{{ site.data.socials.github_username }}" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+          <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/{{ site.data.socials.x_username }}" title="Twitter" aria-label="Twitter"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+        </nav>
       </div>
     {% endif %}
 
-    {% comment %} <div class="clearfix">{{ content }}</div> {% endcomment %}
-    <div class="clearfix">
-      <div class="about-content-wrapper" style="max-width: 550px; text-align: left;">
+    <div class="home-intro-copy">
+      <header class="post-header">
+        <h1 id="home-name" class="post-title">
+          {% if site.title == 'blank' %}
+            {{ site.first_name }}
+            {{ site.middle_name }}
+            {{ site.last_name }}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </h1>
+      </header>
+
+      <div class="about-content-wrapper">
         {{ content }}
       </div>
+
+      <div class="home-contact-links">
+        <div>Email: <a href="mailto:s.j.hobler@lse.ac.uk">s.j.hobler@lse.ac.uk</a></div>
+        <div>Curriculum Vitae: <a href="{{ '/assets/cv/cv-hobler.pdf' | relative_url }}">here</a></div>
+      </div>
+
     </div>
+  </section>
+
+  <article>
+    {% include home-sections.liquid %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}

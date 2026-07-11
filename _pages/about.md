@@ -3,10 +3,12 @@ layout: about
 title: Home
 permalink: /
 subtitle: #<a href='https://www.lse.ac.uk/economics'>London School of Economics</a>
+disable_progressbar: true
 
 profile:
-  align: right
+  align: left
   image: profilepic.jpg
+  image_alt: Portrait of Stephan Hobler
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>Ph.D. Candidate, London School of Economics</p>
@@ -26,36 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<style>
-  .this-link { 
-    color: #000000;  /* Black in light mode */
-  }
-  
-  [data-theme="dark"] .this-link { 
-    color: #ffffff;  /* White in dark mode */
-  }
-</style>
-<style>
-  .adaptive-gray { 
-    color: #666666;  /* Medium gray in light mode */
-  }
-  
-  [data-theme="dark"] .adaptive-gray { 
-    color: #999999;  /* Light gray in dark mode */
-  }
-</style>
-
-<div style="height: 16px;"></div>
-
-I am a Ph.D. candidate at the London School of Economics. In September 2026, I will be joining <span style="color: var(--global-theme-color); font-weight: bold;">Nuffield College Oxford</span> as a Postdoctoral Prize Research Fellow.
-
-<div style="height: 8px;"></div>
-
-My research interests include macroeconomics, growth, firm dynamics, and fiscal policy.
-
-<div style="height: 8px;"></div>
-
-Contact: [s.j.hobler [at] lse.ac.uk](mailto:s.j.hobler@lse.ac.uk)
+I am a Ph.D. candidate at the London School of Economics. In September 2026, I will be joining <span style="color: var(--global-theme-color); font-weight: bold;">Nuffield College, Oxford</span> as a Postdoctoral Prize Research Fellow.
 
 <!-- <div style="height: 16px;"></div> -->
 

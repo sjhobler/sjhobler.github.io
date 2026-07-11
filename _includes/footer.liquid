@@ -33,18 +33,7 @@
   ==========================================
 {% endcomment %}
 
-{% comment %} Modified footer with social icons {% endcomment %}
 {% capture footer_contents %}
-  <!-- Show social icons only on about page -->
-  {% if page.url == "/" or page.layout == "about" %}
-    <div class="social">
-      <div class="contact-icons">
-        {% include social.liquid %}
-      </div>
-    </div>
-  {% endif %}
-  
-  <!-- Existing copyright text -->
   &copy; Copyright {{ site.time | date: '%Y' }}
   {{ site.first_name }}
   {{ site.middle_name }}
