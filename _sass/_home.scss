@@ -32,28 +32,11 @@ html {
 }
 
 .home-intro .post-title {
-  margin: 0 0 8px;
+  margin: 0;
   color: var(--global-text-color);
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: 400;
   letter-spacing: -0.02em;
-}
-
-.home-role {
-  margin: 0;
-  color: var(--global-text-color-light);
-  font-size: 0.92rem;
-  line-height: 1.5;
-}
-
-.home-role a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.home-role a:hover {
-  color: var(--global-theme-color);
-  text-decoration: underline;
 }
 
 .about-content-wrapper {
@@ -66,8 +49,9 @@ html {
 }
 
 .home-contact-links {
-  margin-top: 16px;
+  margin-top: 10px;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 .home-contact-links a + a::before {

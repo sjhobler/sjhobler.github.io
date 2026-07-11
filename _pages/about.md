@@ -30,11 +30,6 @@ latest_posts:
 
 I am a Ph.D. candidate at the London School of Economics. In September 2026, I will be joining <span style="color: var(--global-theme-color); font-weight: bold;">Nuffield College Oxford</span> as a Postdoctoral Prize Research Fellow.
 
-<div class="home-contact-links">
-  <a href="mailto:s.j.hobler@lse.ac.uk">Email</a>
-  <a href="{{ '/assets/cv/cv-hobler.pdf' | relative_url }}">CV</a>
-</div>
-
 <!-- <div style="height: 16px;"></div> -->
 
 <!-- <strong style="font-weight: bold;"> I am on the 2025-2026 academic job market.</strong><br> -->

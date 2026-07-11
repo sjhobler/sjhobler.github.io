@@ -19,6 +19,10 @@ layout: default
           include figure.liquid loading="eager" path=profile_image_path class="img-fluid" sizes=sizes alt=page.profile.image_alt
           cache_bust=true
         %}
+        <div class="home-contact-links">
+          <a href="mailto:s.j.hobler@lse.ac.uk">Email</a>
+          <a href="{{ '/assets/cv/cv-hobler.pdf' | relative_url }}">CV</a>
+        </div>
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
@@ -36,10 +40,6 @@ layout: default
             {{ site.title }}
           {% endif %}
         </h1>
-        <p class="home-role">
-          Ph.D. Candidate,
-          <a href="https://www.lse.ac.uk/economics" target="_blank" rel="noopener">London School of Economics</a>
-        </p>
       </header>
 
       <div class="about-content-wrapper">
