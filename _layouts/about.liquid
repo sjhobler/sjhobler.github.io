@@ -1,53 +1,54 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="grey-color">
-          {{ site.first_name }}
-          {{ site.middle_name }}
-          {{ site.last_name }}
-        </span>
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+<div class="post home-page">
+  <section class="home-intro" aria-labelledby="home-name">
+    {% if site.enable_darkmode %}
+      <button id="light-toggle" class="home-theme-toggle" type="button" title="Change colour theme" aria-label="Change colour theme">
+        <i class="ti ti-sun-moon" id="light-toggle-system" aria-hidden="true"></i>
+        <i class="ti ti-moon-filled" id="light-toggle-dark" aria-hidden="true"></i>
+        <i class="ti ti-sun-filled" id="light-toggle-light" aria-hidden="true"></i>
+      </button>
+    {% endif %}
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
+    {% if page.profile and page.profile.image %}
+      {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+      {% capture sizes %}(min-width: 641px) 220px, 180px{% endcapture %}
+      <div class="home-portrait">
+        {%
+          include figure.liquid loading="eager" path=profile_image_path class="img-fluid" sizes=sizes alt=page.profile.image_alt
+          cache_bust=true
+        %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
       </div>
     {% endif %}
 
-    {% comment %} <div class="clearfix">{{ content }}</div> {% endcomment %}
-    <div class="clearfix">
-      <div class="about-content-wrapper" style="max-width: 550px; text-align: left;">
+    <div class="home-intro-copy">
+      <header class="post-header">
+        <h1 id="home-name" class="post-title">
+          {% if site.title == 'blank' %}
+            {{ site.first_name }}
+            {{ site.middle_name }}
+            {{ site.last_name }}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </h1>
+        <p class="home-role">
+          Ph.D. Candidate,
+          <a href="https://www.lse.ac.uk/economics" target="_blank" rel="noopener">London School of Economics</a>
+        </p>
+      </header>
+
+      <div class="about-content-wrapper">
         {{ content }}
       </div>
     </div>
+  </section>
 
+  <article>
     {% include home-sections.liquid %}
 
     <!-- News -->

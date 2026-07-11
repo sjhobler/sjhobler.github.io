@@ -4,19 +4,110 @@ html {
   scroll-behavior: smooth;
 }
 
-.home-quick-links {
+.home-intro {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(170px, 220px) minmax(0, 1fr);
+  gap: clamp(32px, 5vw, 58px);
+  align-items: start;
+}
+
+.home-portrait figure {
+  margin: 0;
+}
+
+.home-portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.home-intro-copy {
+  min-width: 0;
+  padding: 4px 34px 0 0;
+}
+
+.home-intro .post-header {
+  margin-bottom: 22px;
+}
+
+.home-intro .post-title {
+  margin: 0 0 8px;
+  color: var(--global-text-color);
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.home-role {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.home-role a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-role a:hover {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+
+.about-content-wrapper {
+  max-width: 600px;
+  text-align: left;
+}
+
+.about-content-wrapper > p:first-child {
+  margin-top: 0;
+}
+
+.home-contact-links {
   margin-top: 16px;
   font-size: 0.9rem;
 }
 
-.home-quick-links a {
-  display: inline;
-}
-
-.home-quick-links a + a::before {
+.home-contact-links a + a::before {
   content: "·";
   margin: 0 9px;
   color: var(--global-text-color-light);
+}
+
+#light-toggle.home-theme-toggle {
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  color: var(--global-text-color-light);
+  line-height: 1;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+#light-toggle.home-theme-toggle:hover {
+  color: var(--global-theme-color);
+}
+
+.home-theme-toggle i {
+  color: inherit;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.home-intro .home-theme-toggle #light-toggle-system,
+.home-intro .home-theme-toggle #light-toggle-dark,
+.home-intro .home-theme-toggle #light-toggle-light {
+  padding: 0;
 }
 
 .home-section {
@@ -113,6 +204,18 @@ html {
     scroll-behavior: auto;
   }
 
+  .home-intro {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .home-portrait {
+    width: min(180px, 55vw);
+  }
+
+  .home-intro-copy {
+    padding-right: 0;
+  }
   .home-section {
     padding-top: 52px;
   }

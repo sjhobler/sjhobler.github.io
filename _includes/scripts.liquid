@@ -257,7 +257,7 @@
   <script async defer src="https://openpanel.dev/op1.js"></script>
 {% endif %}
 
-{% if site.enable_progressbar %}
+{% if site.enable_progressbar and page.disable_progressbar != true %}
   <!-- Scrolling Progress Bar -->
   <script defer src="{{ '/assets/js/progress-bar.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
