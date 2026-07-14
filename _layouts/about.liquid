@@ -23,7 +23,9 @@ layout: default
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
         <nav class="home-profile-links" aria-label="Profile links">
-          <a href="{{ '/assets/cv/cv-hobler.pdf' | relative_url }}" title="CV" aria-label="CV"><i class="ai ai-cv" aria-hidden="true"></i></a>
+          <a href="{{ '/assets/cv/cv-hobler.pdf' | relative_url }}" target="_blank" rel="noopener" title="CV" aria-label="CV"
+            ><i class="ai ai-cv" aria-hidden="true"></i
+          ></a>
           <a href="mailto:{{ site.data.socials.email }}" title="Email" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
           <a href="https://github.com/{{ site.data.socials.github_username }}" title="GitHub" aria-label="GitHub"
             ><i class="fa-brands fa-github" aria-hidden="true"></i
