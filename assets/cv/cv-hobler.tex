@@ -1,163 +1,172 @@
-\documentclass[10pt,a4paper]{article}
-\usepackage{amsmath, amsfonts, amsthm, amssymb, bm, bbm, bigints, booktabs, color, enumerate, mdframed, mathtools, graphicx, longtable, mathabx, multirow, natbib, parskip, setspace, subfigure, tikz, multirow, array, tcolorbox, soul}
-\usepackage{enumitem}
-\usepackage{fancyhdr}
-\usepackage{titlesec}
-\usepackage{tabularx}
-\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\documentclass[12pt,a4paper]{article}
 
-\definecolor{dred}{rgb}{0.75, 0, 0} % Dark red
-\definecolor{dpurple}{rgb}{0.6, 0, 0.4} % Dark purple
-\definecolor{darkblue}{rgb}{0.0, 0.0, 0.55}
-\definecolor{midnightblue}{rgb}{0.1, 0.1, 0.44}
-\definecolor{sectioncolor}{rgb}{0.2, 0.2, 0.2} % Dark gray for sections
-
-\usepackage[backref=false, colorlinks=true, linkcolor=dred, urlcolor=dred, citecolor=dred]{hyperref}
-\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
-\usepackage[osf]{mathpazo} % Font
-% \usepackage{newtxtext,newtxmath}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage[UKenglish]{babel}
-\usepackage[UKenglish]{isodate}
-\usepackage[mathscr]{euscript}
+\usepackage{mathpazo}
+\usepackage{microtype}
+\usepackage[a4paper,left=16mm,right=16mm,top=13mm,bottom=14mm]{geometry}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\definecolor{ink}{HTML}{191919}
+\definecolor{accent}{HTML}{234E70}
+\definecolor{muted}{HTML}{5F6368}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=accent,
+  urlcolor=accent,
+  citecolor=accent,
+  pdfauthor={Stephan Hobler},
+  pdftitle={Stephan Hobler -- Academic CV}
+}
+\urlstyle{same}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\emergencystretch}{1em}
+\renewcommand{\arraystretch}{1.05}
+\color{ink}
 
-% Custom section formatting
-\titleformat{\section}
-  {\normalfont\large\bfseries\color{sectioncolor}}
-  {}
-  {0em}
-  {}
-  [\vspace{-0.8em}\rule{\textwidth}{0.8pt}\vspace{-0.2em}]
+\newlength{\sectionlabelwidth}
+\newlength{\sectioncontentwidth}
+\setlength{\sectionlabelwidth}{0.16\textwidth}
+\setlength{\sectioncontentwidth}{0.815\textwidth}
 
-% Custom commands for CV entries
-  \newcommand{\cventry}[4][]{%
-  #2 \hfill #3\\
-  \textit{#4} \hfill \\
-  #1 \\ [-1.2em]
+\newcommand{\sectionblock}[2]{%
+  \vspace{1em}%
+  \noindent
+  \begin{minipage}[t]{\sectionlabelwidth}
+    \vspace{0pt}%
+    \raggedright
+    \hyphenpenalty=10000\exhyphenpenalty=10000
+    {\color{black}\bfseries\fontsize{8.2}{9.2}\selectfont\MakeUppercase{#1}}%
+  \end{minipage}\hfill
+  \begin{minipage}[t]{\sectioncontentwidth}
+    \vspace{0pt}%
+    #2
+  \end{minipage}\par
 }
 
-\newcommand{\cvitem}[2]{%
-  #1 \hfill #2\\ [0.2em]
+\newcommand{\lineentry}[2]{%
+  \begin{tabularx}{\linewidth}{@{}X@{\hspace{1.25em}}r@{}}
+    #1 & \raisebox{0.15ex}[0pt][0pt]{\color{muted}#2}
+  \end{tabularx}\par\vspace{0.35em}%
 }
 
-\newcommand{\awarditem}[1]{%
-  #1 \\ [0.2em]
+\newcommand{\paperentry}[5]{%
+  \begin{tabularx}{\linewidth}{@{}X@{\hspace{1.25em}}r@{}}
+    \href{#1}{\textbf{#2}}%
+    \if\relax\detokenize{#3}\relax\else
+      \hspace{0.2em}{\color{muted}#3}%
+    \fi
+    & \raisebox{0.15ex}[0pt][0pt]{\color{muted}#5}
+  \end{tabularx}\par
+  \if\relax\detokenize{#4}\relax\else
+    {\color{muted}#4}\par
+  \fi
+  \vspace{0.5em}%
 }
 
-\newcommand{\publication}[1]{%
-  % \hangindent=1em
-  % \hangafter=1
-  #1\\[0.4em]
-}
-
-\newcommand{\publicationwithabstract}[2]{%
-  #1\\[0.3em]
-  {\small \hangindent=1.5em \hangafter=0 \textbf{Abstract.} \hspace{0.1em} #2}\\[0.4em]
-}
-
-\newcommand{\hrefhidden}[2]{{\hypersetup{hidelinks}\href[pdfnewwindow=true]{#1}{#2}}}
-
-% Page style
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
-\thispagestyle{empty}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[R]{\fontsize{7.5}{8.5}\selectfont\color{muted}Updated July 2026}
 
 \begin{document}
+\fontsize{9.2}{10.7}\selectfont
 
-% Header with better spacing
-\begin{center}
-	{\LARGE \textbf{Stephan Hobler}}\\[0.8em]
-	\href{mailto:s.j.hobler@lse.ac.uk}{s.j.hobler@lse.ac.uk} \qquad $\diamond$ \qquad \href{https://sjhobler.github.io/}{sjhobler.github.io}
-\end{center}
+{\fontsize{23}{26}\selectfont\bfseries\color{black}Stephan Hobler}\par
 
-\section{Education}
-\cventry{London School of Economics and Political Science}{2022--present} %[Advisors: Wouter den Haan, Matthias Doepke, Jonathon Hazell] 
-{Ph.D. in Economics}
-
-\cventry{London School of Economics and Political Science}{2020-2022}{MRes in Economics (Distinction)}
-
-\cventry{University of Oxford}{2018--2020}
-{MPhil in Economics (Distinction)}
-
-\cventry{University of Warwick}{2015--2018}
-{BSc in Economics}
-
-\vspace{-1em}
-\section{References}
-\begin{tabularx}{\textwidth}{XX}
-	Professor Wouter Den Haan                              & Professor Matthias Doepke                                      \\
-	Department of Economics                                & Department of Economics                                        \\
-	London School of Economics                             & London School of Economics                                     \\
-	\href{mailto:w.denhaan@lse.ac.uk}{w.denhaan@lse.ac.uk} & \href{mailto:m.doepke@lse.ac.uk}{m.doepke@lse.ac.uk}           \\
-	                                                       &                                                                \\
-	Professor Jonathon Hazell                              & Professor Maarten De Ridder                                    \\
-	Department of Economics                                & Department of Economics                                        \\
-	London School of Economics                             & London School of Economics                                     \\
-	\href{mailto:j.hazell@lse.ac.uk}{j.hazell@lse.ac.uk}   & \href{mailto:m.c.de-ridder@lse.ac.uk}{m.c.de-ridder@lse.ac.uk} \\
-\end{tabularx}
-\vspace{0.5em}
-
-
-\section{Job Market Paper}
-\publicationwithabstract{\hrefhidden{https://sjhobler.github.io/assets/papers/jmp/jmp-sj-hobler.pdf}{Worker Mobility and the Diffusion of Radical Technologies.}}{
-	The spread of new, transformative technologies often relies on specialized knowledge among workers and managers. When the required expertise is scarce, human capital and worker mobility can become bottlenecks to technology diffusion. To study these dynamics, I develop a theory in which firms and workers accumulate technology-specific expertise through mutual learning, and worker mobility is subject to search frictions. I calibrate the model to the diffusion of predictive AI among U.S. firms, matching empirical patterns of technology adoption and worker flows using comprehensive microdata from LinkedIn. Worker mobility emerges as a key driver of diffusion. When a new technology is introduced, adoption is initially slow due to the lack of experienced workers and concentrated only among the most productive firm-worker pairs. Diffusion then accelerates through the poaching of workers from early adopters, generating an S-shaped diffusion curve. Aggregate output follows a J-curve, with productivity gains taking time to materialize. A counterfactual matched to European-style labor markets with low mobility and long job tenures reveals a trade-off: the European economy delivers modestly higher steady-state output, but slows adoption by two-thirds and reduces welfare gains from the new technology by one-third---potentially contributing to transatlantic productivity gaps in technology-intensive sectors.
-	% This paper studies the role of worker mobility and labor market institutions on the diffusion of radical technologies. I propose a theory with two-sided heterogeneity in which firms and workers accumulate technology-specific expertise through mutual learning, and worker mobility is subject to search frictions. When existing knowledge is only partially transferable to new technologies, the reallocation of experienced workers becomes central to their diffusion. I calibrate the model to U.S. labor markets using predictive AI as a particular application, matching empirical patterns on technology adoption and poaching of skilled workers with comprehensive microdata from LinkedIn. I then analyze the transition dynamics of introducing a radical new technology. Initially, scarcity of expertise forces firms to adopt internally using inexperienced workers. As diffusion progresses, the constraint on experienced labor relaxes, accelerating adoption through the poaching of workers and generating an S-shaped diffusion curve. Aggregate output follows a J-curve pattern, with growth remaining sluggish initially before accelerating as productivity gains materialize. Poaching accounts for up to 60\% of adoption, with its contribution peaking during the acceleration phase. A counterfactual exercise re-calibrated to European-style labor markets yields modestly higher steady-state output relative to the U.S., while increasing the half-life of adoption by two-thirds and reducing welfare gains from the radical new technology by one-third.
+\sectionblock{Contact Information}{
+	\begin{tabularx}{\linewidth}{@{}Xr@{}}
+		Department of Economics                    &
+		\href{mailto:s.j.hobler@lse.ac.uk}{s.j.hobler@lse.ac.uk} \\
+		University of Oxford                       &
+		\href{https://sjhobler.github.io/}{sjhobler.github.io}   \\
+		Manor Road, Oxford OX1 3UQ, United Kingdom &
+	\end{tabularx}
 }
-%A counterfactual exercise re-calibrated to European-style labor markets implies modest gains in steady-state output relative to the U.S., but adoption times two-thirds longer --- highlighting a trade-off between labor market stability in steady-state and technological dynamism during the transition.
 
-\vspace{-0.5em}
-\section{Publications}
-\publication{\hrefhidden{https://eprints.lse.ac.uk/114913/1/1_s2.0_S016518892200077X_main.pdf}{Multi-Layered Rational Inattention and Time-Varying Volatility.} \textit{Journal of Economic Dynamics and Control}, Vol. 139, 2022.}
+\sectionblock{Employment}{
+	\lineentry{\textbf{Postdoctoral Prize Research Fellow}, Nuffield College, Oxford}{September 2026--}
+}
 
-\vspace{-0.5em}
-\section{Working Papers}
-% \publication{``Worker Mobility and the Diffusion of Radical Technologies.'' (Job Market Paper)}
-\publication{\hrefhidden{https://jadhazell.github.io/website/Fiscal_Inflation_Draft.pdf}{Do Deficits Cause Inflation? A High Frequency Narrative Approach.}, with Jonathon Hazell}
-\publication{\hrefhidden{https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2025/twerp_1577-_van_rens.pdf}{Why did we think wages are rigid for all those years?}, with See-Yu Chan and Thijs van Rens}
-\publication{\hrefhidden{https://sjhobler.github.io/assets/papers/ff_paper.pdf}{A front fixing approach to solving sovereign default models.} Computational Note.}
+\sectionblock{Education}{
+	\lineentry{\textbf{PhD in Economics}, London School of Economics (expected 2026)}{2022--2026}\vspace{-0.18em}
+	{\fontsize{8.4}{9.5}\selectfont\color{muted}Advisors: Wouter Den Haan, Matthias Doepke, and Jonathon Hazell}\par\vspace{0.36em}
+	\lineentry{\textbf{MRes in Economics}, London School of Economics --- Distinction}{2020--2022}
+	\lineentry{\textbf{MPhil in Economics}, University of Oxford --- Distinction}{2018--2020}
+	\lineentry{\textbf{BSc in Economics --- First Class}, University of Warwick}{2015--2018}
+}
 
-\vspace{-0.5em}
-\section{Work in Progress}
-\publication{\hrefhidden{https://sjhobler.github.io/assets/papers/granular-search-product.pdf}{Granular Search in the Product Market.} \textit{Preliminary draft.}}
-\publication{Intangible capital, leverage dynamics, and economic growth., with Johannes Matt}
+\sectionblock{Research Fields}{
+	Macroeconomics; technology diffusion; labour markets; firm dynamics.
+}
 
-% \section{Other Publications}
-% \publication{``Disappearing Jobs and Displaced Workers: Does Education Matter?'' \textit{Carroll Round Proceedings}, 2019.}
+\sectionblock{Working Papers}{
+	\paperentry{https://sjhobler.github.io/assets/papers/jmp/jmp-sj-hobler.pdf}
+	{Worker Mobility and the Diffusion of Radical Technologies.}{}{}{Nov 2025}
+	\paperentry{https://jadhazell.github.io/website/Fiscal_Inflation_Draft.pdf}
+	{Do Deficits Cause Inflation? A High Frequency Narrative Approach.}{}{(with Jonathon Hazell)}{Jun 2025}
+	\paperentry{https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2025/twerp_1577-_van_rens.pdf}
+	{Why did we think wages are so rigid for all those years?}{}{(with See-Yu Chan and Thijs van Rens)}{Sep 2025}
+}
 
-\vspace{-0.5em}
-\section{Teaching}
-\cvitem{Course Manager -- EC2B1 Macroeconomics II, LSE}{2023--2025}
-\cvitem{Class Teacher -- EC2B1 Macroeconomics II, LSE}{2022--2023}
-\cvitem{Class Teacher -- EC210 Macroeconomic Principles, LSE}{2021--2022}
-\cvitem{Class Teacher -- Tools for Macroeconomists: Advanced Tools (Summer School)}{2023,2024}
+\sectionblock{Publication}{
+	\paperentry{https://eprints.lse.ac.uk/114913/1/1_s2.0_S016518892200077X_main.pdf}
+	{Multi-Layered Rational Inattention and Time-Varying Volatility.}{}{\emph{Journal of Economic Dynamics and Control}, vol. 139}{2022}
+}
 
-\vspace{-0.5em}
-\section{Other Professional Experience}
-\cvitem{Research Assistant to Prof. Maarten De Ridder, LSE}{2024}
-\cvitem{Research Assistant to Prof. Joe Hazell, LSE}{2021--2023}
-\cvitem{Research Assistant to Prof. Martin Ellison, University of Oxford}{2020}
-\cvitem{Research Assistant to Prof. Thijs van Rens, University of Warwick}{2017--2018}
+\sectionblock{Work in Progress}{
+	\paperentry{https://sjhobler.github.io/assets/papers/granular-search-product.pdf}
+	{Granular Search in the Product Market.}{(Preliminary draft)}{}{}
+	\paperentry{https://sjhobler.github.io/assets/papers/ff_paper.pdf}
+	{A front fixing approach to solving sovereign default models.}{(Computational note)}{}{}
+}
 
-\vspace{-0.5em}
-\section{Awards \& Grants}
-\awarditem{STICERD Grant 2024, LSE}
-\awarditem{Sir John Hicks Prize for outstanding doctoral student research, LSE}
-\awarditem{LSE Economics Department Scholarship}
-\awarditem{NOE TOP Stipendium}
-\awarditem{Examiner's Prize for Outstanding Performance in Economics for Third Year, University of Warwick}
-\awarditem{Oliver Hart Prize for Excellent Performance for Second Year, University of Warwick}
+% \sectionblock{Seminars \& Conferences}{
+% 	\lineentry{Scientific Workshop on Productivity (DIW), Policy Workshop on Growth and Labor Market Dynamics (BMWE), UNSW, Copenhagen Business School, Columbia, Kellogg School of Management, CREi, CEMFI}{2026}
+% }
 
-\vspace{-0.5em}
-\section{Refereeing}
-\textit{American Economic Review}, \textit{American Economic Review: Insights}, \textit{Economica}
+\sectionblock{Teaching}{
+	\lineentry{\textbf{EC2B1 Macroeconomics II}, LSE --- Course Manager; Class Teacher}{2022--2025}
+	\lineentry{\textbf{EC210 Macroeconomic Principles}, LSE --- Class Teacher}{2021--2022}
+	\lineentry{\textbf{Tools for Macroeconomists: Advanced Tools} --- Class Teacher, Computational Summer School}{2023, 2024}
+}
 
-\vspace{-0.5em}
-\section{Other Skills}
-\awarditem{Technical: Julia, Python, Matlab, R}
-\awarditem{Languages: German (native), English (fluent)}
-\awarditem{Citizenship: Austria}
+\sectionblock{Research Experience}{
+	\lineentry{Research Assistant to \textbf{Maarten De Ridder}, London School of Economics}{2024}
+	\lineentry{Research Assistant to \textbf{Jonathon Hazell}, London School of Economics}{2021--2023}
+	\lineentry{Research Assistant to \textbf{Martin Ellison}, University of Oxford}{2020}
+	\lineentry{Research Assistant to \textbf{Thijs van Rens}, University of Warwick}{2017--2018}
+}
+
+\sectionblock{Awards \& Grants}{
+	% \lineentry{STICERD Grant, LSE (2024)}{}
+	\lineentry{Sir John Hicks Prize for Outstanding Doctoral Student Research, LSE}{}
+	\lineentry{LSE Economics Department Scholarship}{}
+	\lineentry{NOE TOP Stipendium}{}
+	\lineentry{Examiner's Prize for Outstanding Performance in Economics, University of Warwick}{}
+	\lineentry{Oliver Hart Prize for Excellent Performance, University of Warwick}{}
+}
+
+\sectionblock{Professional Service}{
+	\textbf{Refereeing:} \emph{American Economic Review}; \emph{American Economic Review: Insights}; \emph{European Economic Review}; \emph{Management Science}, \emph{Economica}
+}
+
+\sectionblock{Personal}{
+	{\fontsize{8.7}{9.7}\selectfont
+			% \textbf{Technical:} Julia, Python, Matlab, R
+			% \enspace
+			\textbf{Languages:} German (native), English (fluent)
+			\enspace \textbf{Citizenship:} Austria}
+}
 
 \end{document}
