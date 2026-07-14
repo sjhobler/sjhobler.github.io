@@ -66,7 +66,7 @@ h1:first-of-type {
 <div style="margin-bottom: 20px;">
   <strong style="font-weight: bold;"> Do Deficits Cause Inflation? A High Frequency Narrative Approach.</strong><br>
   <span class="adaptive-gray" style="font-size: 0.95em;">
-    with <a href="https://sites.google.com/view/jadhazell/home?authuser=0" target="_blank">Jonathon Hazell</a> | June 2025 | 
+    with <a class="coauthor-link" href="https://sites.google.com/view/jadhazell/home?authuser=0" target="_blank">Jonathon Hazell</a> | June 2025 |
     <a href="https://jadhazell.github.io/website/Fiscal_Inflation_Draft.pdf" target="_blank"><u>PDF</u></a>
   </span>
   <details style="margin-top: 4px;">
@@ -82,8 +82,8 @@ h1:first-of-type {
 <div style="margin-bottom: 20px;">
   <strong style="font-weight: bold;">Why did we think wages are so rigid for all those years?</strong><br>
   <span class="adaptive-gray" style="font-size: 0.95em;">
-    with <a href="https://seeyuchan.com/" target="_blank">See-Yu Chan</a> and 
-    <a href="https://www.thijsvanrens.com/" target="_blank">Thijs van Rens</a> | September 2025 | 
+    with <a class="coauthor-link" href="https://seeyuchan.com/" target="_blank">See-Yu Chan</a> and
+    <a class="coauthor-link" href="https://www.thijsvanrens.com/" target="_blank">Thijs van Rens</a> | September 2025 |
     <a href="https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2025/twerp_1577-_van_rens.pdf" target="_blank"><u>PDF</u></a>
   </span>
   <details style="margin-top: 4px;">

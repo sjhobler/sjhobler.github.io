@@ -49,6 +49,11 @@ table.table a {
   }
 }
 
+a.coauthor-link,
+a.coauthor-link:hover {
+  color: inherit;
+}
+
 .table-dark {
   background-color: transparent;
   &.table-bordered {
