@@ -28,7 +28,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. candidate at the London School of Economics. In September 2026, I will be joining <span style="color: var(--global-theme-color); font-weight: bold;">Nuffield College, Oxford</span> as a Postdoctoral Prize Research Fellow.
+I am a Postdoctoral Prize Research Fellow at <span style="color: var(--global-theme-color); font-weight: bold;">Nuffield College, Oxford</span>. I received my Ph.D. in Economics from the London School of Economics in 2026.
+
+<!-- I am a Ph.D. candidate at the London School of Economics. In September 2026, I will be joining <span style="color: var(--global-theme-color); font-weight: bold;">Nuffield College, Oxford</span> as a Postdoctoral Prize Research Fellow. -->
 
 <!-- <div style="height: 16px;"></div> -->
 
